@@ -414,16 +414,18 @@ def ask_backend(question: str):
 # ---------------------------------------------------------------------------
 # Rendering helpers
 # ---------------------------------------------------------------------------
-def render_answer(answer: str) -> None:
-    st.markdown(
-        f"""
-        <div class="card">
-            <div class="card-title">Answer</div>
-            <div class="answer-text">{answer}</div>
-        </div>
-        """,
-        unsafe_allow_html=True,
-    )
+# def render_answer(answer: str) -> None:
+#     st.markdown(
+#         f"""
+#         <div class="card">
+#             <div class="card-title">Answer</div>
+#             <div class="answer-text">{answer}</div>
+#         </div>
+#         """,
+#         unsafe_allow_html=True,
+#     )
+def render_answer(answer):
+    st.success(answer)
 
 
 def display_sources(sources):
@@ -572,7 +574,8 @@ def render_ragas():
 def main():
     inject_css()
 
-    st.session_state.history = []
+    if "history" not in st.session_state:
+        st.session_state.history = []
 
     # Hero
     st.markdown(
@@ -602,6 +605,8 @@ def main():
         with st.spinner("Retrieving context and generating answer..."):
 
             response = ask_backend(query)
+            st.write("Backend Response:")
+            st.json(response)
 
             if response is None:
                 st.stop()
@@ -661,7 +666,9 @@ def main():
 
         st.markdown("<div style='height:2rem;'></div>", unsafe_allow_html=True)
 
-        render_answer(latest["answer"])
+        #render_answer(latest["answer"])
+        st.write(latest)
+        st.success(latest["answer"])
         display_sources(latest["sources"])
         render_chunks(latest["results"])
         render_stats(
