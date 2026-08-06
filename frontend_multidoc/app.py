@@ -566,7 +566,7 @@ def render_ragas():
     st.caption("Offline evaluation using RAGAS with Ollama on the benchmark dataset.")
 
 
-BACKEND_URL = "http://127.0.0.1:8000"
+BACKEND_URL = "https://multidoc-rag-hahfdxgtbnhve9ba.centralindia-01.azurewebsites.net/"
 
 
 def ask_backend(question: str):
@@ -595,8 +595,8 @@ def ask_backend(question: str):
 # ---------------------------------------------------------------------------
 def main():
     inject_css()
-
-    st.session_state.history = []
+    if "history" not in st.session_state:
+        st.session_state.history = []
 
     # Hero
     st.markdown(
