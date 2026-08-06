@@ -367,7 +367,7 @@ def inject_css() -> None:
 
 import requests
 
-BACKEND_URL = "https://multidoc-rag-hahfdxgtbnhve9ba.centralindia-01.azurewebsites.net"
+BACKEND_URL = "https://multidoc-rag-hahfdxgtbnhve9ba.centralindia-01.azurewebsites.net/"
 
 
 def ask_backend(question: str):
