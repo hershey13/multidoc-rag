@@ -381,7 +381,7 @@ def ask_backend(question: str):
         response = requests.post(
             f"{BACKEND_URL}/query",
             json={"question": question},
-            timeout=120,
+            timeout=300,
         )
 
         response.raise_for_status()
