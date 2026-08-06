@@ -32,8 +32,10 @@ Windows
 
 ▶️Running the Backend
 uvicorn app.main:app --reload
+
 ▶️ Running the Frontend
 streamlit run app.py
+
 ▶️ Docker
 Build the Docker image:
 docker build -t multidoc-rag .
