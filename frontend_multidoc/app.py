@@ -367,48 +367,48 @@ def inject_css() -> None:
 
 import requests
 
-BACKEND_URL = "https://multidoc-rag-hahfdxgtbnhve9ba.centralindia-01.azurewebsites.net/"
+BACKEND_URL = "https://multidoc-rag-hahfdxgtbnhve9ba.centralindia-01.azurewebsites.net"
 
 
-# def ask_backend(question: str):
-#     """
-#     Sends the user's question to the FastAPI backend
-#     and returns the complete JSON response.
-#     """
+def ask_backend(question: str):
+    """
+    Sends the user's question to the FastAPI backend
+    and returns the complete JSON response.
+    """
 
-#     try:
+    try:
 
-#         response = requests.post(
-#             f"{BACKEND_URL}/query",
-#             json={"question": question},
-#             timeout=120,
-#         )
+        response = requests.post(
+            f"{BACKEND_URL}/query",
+            json={"question": question},
+            timeout=120,
+        )
 
-#         response.raise_for_status()
+        response.raise_for_status()
 
-#         return response.json()
+        return response.json()
 
-#     except requests.exceptions.ConnectionError:
+    except requests.exceptions.ConnectionError:
 
-#         st.error(
-#             "❌ Could not connect to the backend.\n\n"
-#             "Make sure FastAPI is running:\n\n"
-#             "uvicorn main:app --reload"
-#         )
+        st.error(
+            "❌ Could not connect to the backend.\n\n"
+            "Make sure FastAPI is running:\n\n"
+            "uvicorn main:app --reload"
+        )
 
-#         return None
+        return None
 
-#     except requests.exceptions.Timeout:
+    except requests.exceptions.Timeout:
 
-#         st.error("The backend took too long to respond.")
+        st.error("The backend took too long to respond.")
 
-#         return None
+        return None
 
-#     except requests.exceptions.RequestException as e:
+    except requests.exceptions.RequestException as e:
 
-#         st.error(str(e))
+        st.error(str(e))
 
-#         return None
+        return None
 
 
 # ---------------------------------------------------------------------------
@@ -566,37 +566,13 @@ def render_ragas():
     st.caption("Offline evaluation using RAGAS with Ollama on the benchmark dataset.")
 
 
-BACKEND_URL = "https://multidoc-rag-hahfdxgtbnhve9ba.centralindia-01.azurewebsites.net/"
-
-
-def ask_backend(question: str):
-
-    try:
-
-        response = requests.post(
-            f"{BACKEND_URL}/query",
-            json={"question": question},
-            timeout=120,
-        )
-
-        response.raise_for_status()
-
-        return response.json()
-
-    except requests.exceptions.RequestException as e:
-
-        st.error(f"Backend Error: {e}")
-
-        return None
-
-
 # ---------------------------------------------------------------------------
 # Main application
 # ---------------------------------------------------------------------------
 def main():
     inject_css()
-    if "history" not in st.session_state:
-        st.session_state.history = []
+
+    st.session_state.history = []
 
     # Hero
     st.markdown(
