@@ -1,4 +1,5 @@
-Multi-Document Question Answering using Retrieval-Augmented Generation (RAG)
+📚 Multi-Document Question Answering using Retrieval-Augmented Generation (RAG)
+
 This project presents a Retrieval-Augmented Generation (RAG) based Multi-Document Question Answering system that generates accurate, context-aware responses from a large collection of enterprise documents.
 The system preprocesses documents using recursive chunking, creates dense vector embeddings, and stores them in ChromaDB for efficient retrieval. To improve retrieval quality, Dense Retrieval, Hybrid Retrieval (BM25 + Dense + Reciprocal Rank Fusion), and Cross-Encoder reranking were implemented and evaluated.
 Performance was assessed using retrieval metrics (Precision@5, Recall@5, MRR, MAP, nDCG@5) and RAGAS metrics (Faithfulness, Answer Relevancy, Context Precision, and Context Recall).
