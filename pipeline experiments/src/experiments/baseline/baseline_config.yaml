@@ -1,0 +1,19 @@
+dataset:
+  documents: 1063
+
+chunking:
+  splitter: RecursiveCharacterTextSplitter
+  chunk_size: 500
+  overlap: 100
+
+embedding:
+  model: BAAI/bge-small-en-v1.5
+  normalize: true
+
+vector_db:
+  type: ChromaDB
+  metric: cosine
+
+retrieval:
+  dense_top_k: 5
+  sparse: BM25
