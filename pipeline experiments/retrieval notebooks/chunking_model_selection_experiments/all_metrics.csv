@@ -1,0 +1,10 @@
+Retriever,Chunking,Chunk Size,Queries,Precision@5,Recall@5,MRR,MAP,nDCG@5
+Hybrid RRF,Recursive,700,40,0.925,1,0.9708,0.9551,0.923
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+Metric,Score,Assessment,,,,,,
+Faithfulness,0.7116,Good,,,,,,
+Answer Relevancy,0.7809,Good,,,,,,
+Context Precision,0.7532,Good,,,,,,
+Context Recall,0.8765,Very Good,,,,,,
