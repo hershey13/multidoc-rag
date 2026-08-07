@@ -610,9 +610,16 @@ def main():
 
             if response is None:
                 st.stop()
+                
+            st.write("Response Keys:", response.keys())
+            st.json(response)
 
-            answer = response["answer"]
-            latency = response["latency"]
+            answer = response.get("answer")
+            latency = response.get("latency")
+
+            # answer = response["answer"]
+            # latency = response["latency"]
+            
 
             # ----------------------------
             # Convert backend sources into
