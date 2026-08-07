@@ -1,0 +1,1078 @@
+query_id,query,query_category,retriever,latency,rank,retrieval_score,score_type,filename,page,chunk_id,document_category,chunk_length,chunk_text
+Q001,"What is the purpose of an Ask Me Anything (AMA) session at GitLab, and who can initiate one?",single_hop,HybridRRFRetriever,0.36681032180786133,1,0.01639344262295082,hybrid_rrf,..\data\corpus\company\amas.md,,581,company,392,"---
+title: AMAs
+description: What you need to know about Ask Me Anything (AMA)
+---
+
+An AMA (Ask Me Anything) is a session for team members to ask a specific individual or group of individuals questions either generally or on a specific topic.
+
+Examples include a specific executive member, a particular project, quarterly report follow-up, and regarding a significant policy change at GitLab."
+Q001,"What is the purpose of an Ask Me Anything (AMA) session at GitLab, and who can initiate one?",single_hop,HybridRRFRetriever,0.36681032180786133,2,0.016129032258064516,hybrid_rrf,..\data\corpus\communication\ask-me-anything.md,,434,communication,647,"## Purpose
+
+Ask Me Anything (AMA) meetings are arranged to allow team members the opportunity to learn from and ask questions of our [E-Group](/handbook/company/structure/#e-group), [Board of Directors](/handbook/board-meetings/#board-of-directors), and others groups who would like to host an AMA on a specific topic. AMAs can be arranged for many purposes, including the following:
+
+- Allow team members to meet new leaders joining the company
+- Clarify a company-wide initiative or change that requires more discussion
+- Allow team members to learn more about current leaders
+- Spark insightful discussions
+- Initiate a retrospective discussion"
+Q001,"What is the purpose of an Ask Me Anything (AMA) session at GitLab, and who can initiate one?",single_hop,HybridRRFRetriever,0.36681032180786133,3,0.015873015873015872,hybrid_rrf,..\data\corpus\communication\ask-me-anything.md,,433,communication,112,"---
+title: Ask Me Anything
+description: ""Learn and ask questions at GitLab's Ask Me Anything (AMA) meetings""
+---"
+Q001,"What is the purpose of an Ask Me Anything (AMA) session at GitLab, and who can initiate one?",single_hop,HybridRRFRetriever,0.36681032180786133,4,0.015625,hybrid_rrf,..\data\corpus\company\still-a-startup.md,,3417,company,639,"For example, every person who joins GitLab has to schedule at least 5 [coffee chats](/handbook/company/culture/all-remote/informal-communication/#coffee-chats) during their onboarding. We also have social calls, [Ask Me Anything](/handbook/company/culture/all-remote/informal-communication/#ama-ask-me-anything) meetings with senior leaders, and 15 other explicit ways to encourage employee connections and relationship building. Intentionally organizing informal communication enables the trust-building conversations that are essential for collaboration. This can be more effective than relying on chance encounters in an office building"
+Q001,"What is the purpose of an Ask Me Anything (AMA) session at GitLab, and who can initiate one?",single_hop,HybridRRFRetriever,0.36681032180786133,5,0.015384615384615385,hybrid_rrf,..\data\corpus\communication\_index.md,,216,communication,498,"1. Optional AMA.
+   If desired and appropriate, offer a company wide Zoom call to host an AMA (Ask Me Anything). Oftentimes, questions can be managed within the Discussion tab of a GitLab Issue or Merge Request. For broad announcements, such as registration opening for GitLab Contribute, an AMA may be better suited for a large volume of inquiries. To schedule a company wide call, please make a request in the `#people-connect` Slack channel, and include a Google Doc in the invite for questions."
+Q002,What are the responsibilities of the host and moderator during a GitLab AMA?,multi_hop,HybridRRFRetriever,0.23743176460266113,1,0.01639344262295082,hybrid_rrf,..\data\corpus\company\amas.md,,590,company,557,"### Moderator
+
+The Moderator of a Zoom call is the person that has Zoom's *Host* level permission. Host level permission in Zoom permits streaming a call to YouTube, starting or ending a recording and giving co-hosting permissions to others.
+
+The Moderator of a Zoom call is the person who is in charge of starting the call i.e. initiating the streaming to YouTube; updating the stream from public to private if a sensitive topic is mentioned, and keeping the meeting running efficiently and on time so that it does not go over the Quick Meeting time frame."
+Q002,What are the responsibilities of the host and moderator during a GitLab AMA?,multi_hop,HybridRRFRetriever,0.23743176460266113,2,0.016129032258064516,hybrid_rrf,..\data\corpus\company\amas.md,,586,company,621,"1. To request an AMA be put on the GitLab team meetings calendar, the requestor should find a date and time on the GitLab Team Meetings calendar that works for the AMA host.
+1. The requestor will slack [the EBA](/handbook/eba/) for their department in the `#eba-team` Slack Channel and provide the following information:
+    - Title of AMA
+    - Public or Private Livestream
+    - Date & Time (YYYY-MM-DD PST)
+    - Host
+    - Moderator
+    - Agenda Link
+    - Attendees (specify if calendar invitations go to specific teams or to gitlab-team-members@gitlab.com)
+    - Confirm if this call is ""open to friends and family"""
+Q002,What are the responsibilities of the host and moderator during a GitLab AMA?,multi_hop,HybridRRFRetriever,0.23743176460266113,3,0.015873015873015872,hybrid_rrf,..\data\corpus\company\amas.md,,589,company,265,"The ""Host"" term can be confusing as Zoom has a specific definition for Host pertaining mainly to a permission level, which in practice GitLab does not assign to the term. *More information on Zoom's definition of ""host"" is explained in the Moderator section below*."
+Q002,What are the responsibilities of the host and moderator during a GitLab AMA?,multi_hop,HybridRRFRetriever,0.23743176460266113,4,0.015625,hybrid_rrf,..\data\corpus\communication\_index.md,,216,communication,498,"1. Optional AMA.
+   If desired and appropriate, offer a company wide Zoom call to host an AMA (Ask Me Anything). Oftentimes, questions can be managed within the Discussion tab of a GitLab Issue or Merge Request. For broad announcements, such as registration opening for GitLab Contribute, an AMA may be better suited for a large volume of inquiries. To schedule a company wide call, please make a request in the `#people-connect` Slack channel, and include a Google Doc in the invite for questions."
+Q002,What are the responsibilities of the host and moderator during a GitLab AMA?,multi_hop,HybridRRFRetriever,0.23743176460266113,5,0.015384615384615385,hybrid_rrf,..\data\corpus\communication\ask-me-anything.md,,448,communication,388,"#### Scheduling a Reverse AMA
+
+AMAs are generally coordinated, scheduled, and planned by the [Executive Business Administrator](/handbook/eba/) team when an E-Group member is the host. Anytime that an AMA is to be hosted by an executive, VP, or Director at GitLab, it should be arranged and scheduled by that functions EBA. AMAs of Board Members are scheduled by the Staff EBA to the CEO."
+Q003,"How should someone schedule and prepare for a Deep Dive session, including what should be done after the session ends?",single_hop,HybridRRFRetriever,0.3409111499786377,1,0.01639344262295082,hybrid_rrf,..\data\corpus\communication\deep-dives.md,,547,communication,231,"---
+title: ""Deep Dives""
+description: ""The goal of a Deep Dive session is to share knowledge about a particular topic, with the assumption that recipients already have some basic understanding or aptitude for the given subject.""
+---"
+Q003,"How should someone schedule and prepare for a Deep Dive session, including what should be done after the session ends?",single_hop,HybridRRFRetriever,0.3409111499786377,2,0.016129032258064516,hybrid_rrf,..\data\corpus\communication\deep-dives.md,,548,communication,583,"## Deep Dive Sessions
+
+The goal of a *Deep Dive* session is to share knowledge about a particular topic, with the assumption that recipients already have some basic understanding or aptitude for the given subject.
+This aligns with how we work since everything at GitLab is [public by default](/handbook/values/#public-by-default).
+This is a particularly useful initiative within Engineering teams to mitigate dependencies between specific engineers and areas of the codebase, while also improving collaboration and product knowledge with the wider group.
+An example format guideline:"
+Q003,"How should someone schedule and prepare for a Deep Dive session, including what should be done after the session ends?",single_hop,HybridRRFRetriever,0.3409111499786377,3,0.015873015873015872,hybrid_rrf,..\data\corpus\company\culture\inclusion\being-an-ally.md,,2166,inclusion,535,"1. **Session 2:** The importance of being an ally and why you want to be an ally.
+1. **Session 3:** Work as a group to discuss a number of scenarios and how to tackle them as an ally.
+1. **Session 4:** Together, write a commitment to allyship and the values you will abide by to be an ally.
+    1. In the last session you will decide as a group a short commitment statement that should be shared on the Diversity, Inclusion & Belonging Sharing Page. Think about what you have individually and collectively learnt during the experience."
+Q003,"How should someone schedule and prepare for a Deep Dive session, including what should be done after the session ends?",single_hop,HybridRRFRetriever,0.3409111499786377,4,0.015625,hybrid_rrf,..\data\corpus\company\culture\all-remote\mental-health.md,,1433,all-remote,401,"## What are the challenges of remote work for mental health?
+
+Remote work is not for everyone. We have done a deep dive on specific [remote-work challenges and solutions](drawbacks/#remote-work-challenges-and-solutions-for-employees), including mental health struggles that could be aggravated by:
+
+- the onboarding process
+- loneliness
+- communication breakdowns
+- work/life balance
+- time management"
+Q003,"How should someone schedule and prepare for a Deep Dive session, including what should be done after the session ends?",single_hop,HybridRRFRetriever,0.3409111499786377,5,0.015384615384615385,hybrid_rrf,..\data\corpus\company\culture\inclusion\tmrg-tmag\leaders\executive-sponsorship.md,,2408,leaders,566,"## How TMxG leads should work with Executive Sponsors
+
+### 1. Start with an engagement meeting
+
+When a new sponsor is assigned (or annually):
+
+- Schedule a **60‑minute initial engagement session** with DIB facilitation where possible.  
+- Cover:
+  - TMxG mission, current state, and goals.  
+  - Annual and quarterly plans.  
+  - How the sponsor prefers to engage (channels, frequency).  
+  - Concrete commitments (events, communications, advocacy).
+
+Use the **Executive Sponsor Meeting Agenda template** for this session (see [Templates &amp; Tools](./templates/))."
+Q004,"What information should be included when requesting an AMA, and what responsibilities does the EBA team have after receiving the request?",multi_hop,HybridRRFRetriever,0.29378366470336914,1,0.01639344262295082,hybrid_rrf,..\data\corpus\company\amas.md,,586,company,621,"1. To request an AMA be put on the GitLab team meetings calendar, the requestor should find a date and time on the GitLab Team Meetings calendar that works for the AMA host.
+1. The requestor will slack [the EBA](/handbook/eba/) for their department in the `#eba-team` Slack Channel and provide the following information:
+    - Title of AMA
+    - Public or Private Livestream
+    - Date & Time (YYYY-MM-DD PST)
+    - Host
+    - Moderator
+    - Agenda Link
+    - Attendees (specify if calendar invitations go to specific teams or to gitlab-team-members@gitlab.com)
+    - Confirm if this call is ""open to friends and family"""
+Q004,"What information should be included when requesting an AMA, and what responsibilities does the EBA team have after receiving the request?",multi_hop,HybridRRFRetriever,0.29378366470336914,2,0.016129032258064516,hybrid_rrf,..\data\corpus\communication\ask-me-anything.md,,448,communication,388,"#### Scheduling a Reverse AMA
+
+AMAs are generally coordinated, scheduled, and planned by the [Executive Business Administrator](/handbook/eba/) team when an E-Group member is the host. Anytime that an AMA is to be hosted by an executive, VP, or Director at GitLab, it should be arranged and scheduled by that functions EBA. AMAs of Board Members are scheduled by the Staff EBA to the CEO."
+Q004,"What information should be included when requesting an AMA, and what responsibilities does the EBA team have after receiving the request?",multi_hop,HybridRRFRetriever,0.29378366470336914,3,0.015873015873015872,hybrid_rrf,..\data\corpus\communication\ask-me-anything.md,,445,communication,633,"- A team member of a particular underrepresented group will create an issue (Template link to follow)
+- The team member will tag a [DIB Team Member](https://gitlab.slack.com/archives/CLLDY3L8P/p1617863963093900), the [E-Group Members EBA](/handbook/eba/) and Stella Treas (Chief of Staff to the CEO)
+- The E-Group member will review the request, the E-Group member can suggest an alternative member including a direct report to host the AMA or may reject the AMA based on the information provided in the issue.
+- If accepted the E-Group EBA will work with the E-Group member or direct report to find a time and date that is suitable."
+Q004,"What information should be included when requesting an AMA, and what responsibilities does the EBA team have after receiving the request?",multi_hop,HybridRRFRetriever,0.29378366470336914,4,0.015625,hybrid_rrf,..\data\corpus\communication\ask-me-anything.md,,444,communication,489,"- The TMRG Leads will consult with the TMRG membership and accept or reject the request. If accepted the TMRG leads will provide an ideal timeframe for the AMA, ideally within 4 weeks from the date of the request.
+- Once accepted the EBA will provide a series of times that are suitable
+- The E-Group member or EBA will ensure that there is a Reverse AMA facilitator for the session. (Facilitator Group link to follow)
+- The EBA will create a calendar invite and Agenda for the agreed time"
+Q004,"What information should be included when requesting an AMA, and what responsibilities does the EBA team have after receiving the request?",multi_hop,HybridRRFRetriever,0.29378366470336914,5,0.015384615384615385,hybrid_rrf,..\data\corpus\company\amas.md,,587,company,648,"- Confirm if this call is ""open to friends and family""
+1. The EBA will create the event in the EBA Zoom account and add it to the GitLab team meetings calendar.
+    - The EBA will add the AMA document link in the description and invite the specified attendees to the meeting.
+    - In order to limit traffic in the document during the call, the link for the AMA document in the meeting invitation should contain ""/preview"" at the end of the address to direct attendees to the preview version, with instructions in the body of the document directing those who have questions to editable version.
+    - The EBA will add Alternate Hosts if applicable."
+Q005,"Which Slack channels should team members use for payroll questions, IT support, referrals, and company-wide announcements?",single_hop,HybridRRFRetriever,0.4332551956176758,1,0.01639344262295082,hybrid_rrf,..\data\corpus\communication\_index.md,,341,communication,658,"## Slack
+
+Slack is used for:
+
+- Internal-only communication and announcements impacting all team members
+  - Linking a GitLab Issue or Merge Request (confidential if necessary) where discussion can take place is encouraged when sharing announcements on Slack
+- Company newsletters and team updates
+- Asynchronous team standups, questions, and quick collaboration
+- Informal communication
+
+Use a [bias for action](/handbook/values/#operate-with-a-bias-for-action) to quickly move conversations that require collaboration and action out of Slack and into an issue.
+
+Only 90 days of Slack activity will be retained, so Slack should specifically NOT be used for:"
+Q005,"Which Slack channels should team members use for payroll questions, IT support, referrals, and company-wide announcements?",single_hop,HybridRRFRetriever,0.4332551956176758,2,0.016129032258064516,hybrid_rrf,..\data\corpus\communication\chat.md,,476,communication,346,"### Team Channels
+
+To raise an issue with a specific team, please use below most commonly used channels;
+
+- **`#it_help`**: For IT related queries, Okta, issues with hardware, software, system access requests and user permissions etc
+- **`#talent-acquisition`**: For referrals based questions, candidate alignments, general talent acquisition etc"
+Q005,"Which Slack channels should team members use for payroll questions, IT support, referrals, and company-wide announcements?",single_hop,HybridRRFRetriever,0.4332551956176758,3,0.015873015873015872,hybrid_rrf,..\data\corpus\people-group\offboarding\_index.md,,8209,offboarding,318,"- Important:
+      - Informing the team and answering questions should be the top priority.
+      - Departure announcements should not be made in the `#team-member-updates` Slack channel, opt for channels specific to your team or department
+      - In most cases, a team call can occur the same day of the offboarding."
+Q005,"Which Slack channels should team members use for payroll questions, IT support, referrals, and company-wide announcements?",single_hop,HybridRRFRetriever,0.4332551956176758,4,0.015625,hybrid_rrf,..\data\corpus\communication\_index.md,,216,communication,498,"1. Optional AMA.
+   If desired and appropriate, offer a company wide Zoom call to host an AMA (Ask Me Anything). Oftentimes, questions can be managed within the Discussion tab of a GitLab Issue or Merge Request. For broad announcements, such as registration opening for GitLab Contribute, an AMA may be better suited for a large volume of inquiries. To schedule a company wide call, please make a request in the `#people-connect` Slack channel, and include a Google Doc in the invite for questions."
+Q005,"Which Slack channels should team members use for payroll questions, IT support, referrals, and company-wide announcements?",single_hop,HybridRRFRetriever,0.4332551956176758,5,0.015384615384615385,hybrid_rrf,..\data\corpus\security\corporate\end-user-services\supported-apps\reclaim-ai\_index.md,,10379,reclaim-ai,632,"## Additional Support
+
+For questions about Reclaim.ai usage, security concerns, or compliance requirements:
+
+- **General IT Support**: [#it_help](https://gitlab.slack.com/channels/it_help) in Slack
+- **Security Questions**: [#security-help](https://gitlab.slack.com/channels/security-help) in Slack
+- **Access Requests**: Follow the [Access Request process](/handbook/security/corporate/end-user-services/access-requests/access-requests/)
+- **Compliance Questions**: Contact your manager or the Compliance team
+- **Data Privacy Questions**: Contact the Privacy team via [#privacy](https://gitlab.slack.com/channels/privacy) in Slack"
+Q006,What types of information are classified as Internal versus Limited Access at GitLab? Give examples of each.,single_hop,HybridRRFRetriever,0.387362003326416,1,0.01639344262295082,hybrid_rrf,..\data\corpus\communication\confidentiality-levels.md,,519,communication,428,"---
+title: Confidentiality levels
+description: ""At GitLab, we are public by default, but some information is classified as internal or limited access. This page provides details on confidentiality levels.""
+---
+
+## Public by default
+
+At GitLab, we are [public by default](/handbook/values/#public-by-default), but some information is classified as internal or limited access. This page provides details on confidentiality levels."
+Q006,What types of information are classified as Internal versus Limited Access at GitLab? Give examples of each.,single_hop,HybridRRFRetriever,0.387362003326416,2,0.016129032258064516,hybrid_rrf,..\data\corpus\communication\_index.md,,136,communication,293,"### Confidentiality levels
+
+At GitLab, we are [public by default](/handbook/values/#public-by-default), but some information is classified as internal or limited access. Please see the [confidentiality levels](/handbook/communication/confidentiality-levels/) handbook page for details on this."
+Q006,What types of information are classified as Internal versus Limited Access at GitLab? Give examples of each.,single_hop,HybridRRFRetriever,0.387362003326416,3,0.015873015873015872,hybrid_rrf,..\data\corpus\security\policies_and_standards\data-classification-standard.md,,14209,policies_and_standards,606,"### Data Classification Standards
+
+#### Credentials and access tokens are classified at the same level as the data they protect
+
+Credentials such as passwords, personal access tokens, encryption keys, and session cookies derive their classification from the highest classification of the data they protect.
+
+##### Combinations of data types may result in a higher system classification level
+
+If there is more than one data type residing in a system, the system should be classified at the highest data classification level of the data being stored, transmitted or processed on that system.
+
+##### Labeling"
+Q006,What types of information are classified as Internal versus Limited Access at GitLab? Give examples of each.,single_hop,HybridRRFRetriever,0.387362003326416,4,0.015625,hybrid_rrf,..\data\corpus\communication\confidentiality-levels.md,,542,communication,390,"1. Knowledge of the project or initiative is not MNPI but should remain [limited access](/handbook/communication/confidentiality-levels/#limited-access) to avoid prematurely sharing information with  team members, customers or the wider community. Examples include: ""Tiering"" was our project name for End of Availability, and ""Hamster"" was our project name for exploring how to enter China."
+Q006,What types of information are classified as Internal versus Limited Access at GitLab? Give examples of each.,single_hop,HybridRRFRetriever,0.387362003326416,5,0.015384615384615385,hybrid_rrf,..\data\corpus\security\corporate\systems\nira\_index.md,,11078,nira,695,"### Google Workspace link types
+
+There are 4 types of links in Google Workspace.
+Google Workspace link types
+
+#### External links
+
+- External links will only be displayed if you clicked on an external document link through an open link.
+- When you access an externally owned document via an open link, this is called External.
+
+##### Targeted links
+
+- If Target audience is enabled by your administrator, or you have been added as a Target Audience through another domain, you will be able to see items that have these types of links.
+
+##### Unknown links
+
+- Unknown links are rare
+- When Google's APIs don't provide enough information about a link type, then it's classified as an Unknown link."
+Q007,How do GitLab's values of transparency influence both confidentiality rules and communication practices?,multi_hop,HybridRRFRetriever,0.23480963706970215,1,0.01639344262295082,hybrid_rrf,..\data\corpus\security\security-operations\sirt\sec-incident-response.md,,17567,sirt,441,"### Confidentiality
+
+Security incidents may (and usually do) involve sensitive information related to GitLab, GitLab's customers or employees, or users who (in one way or another) have engaged with GitLab. GitLab, while codifying the [Transparency](/handbook/values/#transparency) value, also strongly believes in and strives to maintain the privacy and confidentiality of the data its employees, customers, and users have entrusted us with."
+Q007,How do GitLab's values of transparency influence both confidentiality rules and communication practices?,multi_hop,HybridRRFRetriever,0.23480963706970215,2,0.016129032258064516,hybrid_rrf,..\data\corpus\company\culture\all-remote\onboarding.md,,1558,all-remote,695,"## Remote onboarding best practices
+
+- **Outline work logistics and expectations.**
+At GitLab, we believe the best way to operate is by [documenting](/handbook/company/culture/all-remote/) processes, guides, solutions, how-tos, and policies. Be sure to empower remote workers to  adopt [remote-first communication and workflow practices](/handbook/company/culture/all-remote/).
+
+- **Identify employee concerns and answer questions.**
+GitLab is committed to [transparency](/handbook/values/#transparency). This value gives team members access to a great deal of visibility to what is going on throughout the organization. However, it does not negate the need to invite employees to ask questions."
+Q007,How do GitLab's values of transparency influence both confidentiality rules and communication practices?,multi_hop,HybridRRFRetriever,0.23480963706970215,3,0.015873015873015872,hybrid_rrf,..\data\corpus\company\culture\inclusion\dib-working-groups\inclusive-practices.md,,2235,dib-working-groups,508,"### Goals
+
+This is a non-comprehensive list of topics to be discussed.
+
+- What is the primary goal of Inclusive Practices in Meetings
+- What is the metric for success both long and short term
+- Establish the most important needs for Inclusive Meetings
+  - How to develop guidance on name pronunciation
+  - Guidance on do's and don't with for inclusive meetings
+  - Not an exhaustive list
+- Develop Resources to be used as best practices
+  - Add to Handbook as a resource
+- Communication plan of the resources"
+Q007,How do GitLab's values of transparency influence both confidentiality rules and communication practices?,multi_hop,HybridRRFRetriever,0.23480963706970215,4,0.015625,hybrid_rrf,..\data\corpus\people-group\offboarding\_index.md,,8255,offboarding,551,"### Involuntary Terminations
+
+Transparency is one of our values. In the case of offboarding, we opt to share the departure only with peers and direct reports as needed.  
+If someone is let go involuntarily, this generally cannot be shared since it affects the individual's privacy and job performance is intentionally kept [between an individual and their manager](/handbook/communication/confidentiality-levels/#not-public).
+
+Please discuss any concerns you have about another employee's offboarding with your manager or your People Business Partner."
+Q007,How do GitLab's values of transparency influence both confidentiality rules and communication practices?,multi_hop,HybridRRFRetriever,0.23480963706970215,5,0.015384615384615385,hybrid_rrf,..\data\corpus\company\working-groups\incident-response-lifecycle.md,,4320,working-groups,676,"1. Increase [efficiency](/handbook/values/#efficiency) through common incident response, analysis, documentation, ongoing management and reporting methods.
+1. Increase [transparency](/handbook/values/#transparency) through improving visibility and communication of incidents to business and e-group
+1. Support [results](/handbook/values/#results) by building our clients' confidence in GitLab's ability to quickly resolve and communicate incidents when they occur
+1. Align Incident Management activities and priorities with those of the business
+1. Prepare materials for the creation of training modules for the Engineer Department on the Incident Management Process at GitLab"
+Q008,"What activities occur on a quarterly cadence at GitLab, and how are they related to GitLab Assembly, board meetings, and earnings activities?",multi_hop,HybridRRFRetriever,0.5722432136535645,1,0.01639344262295082,hybrid_rrf,..\data\corpus\company\culture\all-remote\guide\design.md,,1062,guide,411,"1. **Collaboration Cadence:** In an office environment, design teams organically build and fall into a cadence of meetings, collaboration, and other team-based activities. When these in-person exchanges are not available, it's important design teams establish [asynchronous workflows](../asynchronous/) and learn how to [collaborate through text](../collaboration-and-whiteboarding/#collaborating-through-text)."
+Q008,"What activities occur on a quarterly cadence at GitLab, and how are they related to GitLab Assembly, board meetings, and earnings activities?",multi_hop,HybridRRFRetriever,0.5722432136535645,2,0.016129032258064516,hybrid_rrf,..\data\corpus\company\culture\inclusion\tmrg-tmag\leaders\_index.md,,2369,leaders,647,"## What TMxG leadership means
+
+TMxG leaders are **volunteer team members** who coordinate programming and community‑building for their group. You are not expected to do this alone: you have DIB support, Executive Sponsorship, and fellow leaders.
+
+At a high level you will:
+
+- Plan and deliver activities across the three pillars.  
+- Manage and forecast your **quarterly TMxG budget** (with DIB guidance).  
+- Track activities and participation in the shared **TMxG activity tracker**.  
+- Partner with your **Executive Sponsor** for visibility, advocacy, and barrier‑removal.  
+- Maintain a sustainable cadence that fits alongside your core role."
+Q008,"What activities occur on a quarterly cadence at GitLab, and how are they related to GitLab Assembly, board meetings, and earnings activities?",multi_hop,HybridRRFRetriever,0.5722432136535645,3,0.015873015873015872,hybrid_rrf,..\data\corpus\company\cadence.md,,630,company,616,"## Quarter
+
+1. [Board meeting](/handbook/board-meetings/#board-meeting-process)
+1. Sales targets (in [Clari](/handbook/business-technology/tech-stack/#clari))
+1. [E-group offsite](/handbook/company/offsite/)
+1. [GitLab Assembly](/handbook/company/gitlab-all-company-meetings/)
+1. [Earnings activities](/handbook/finance/investor-relations/)
+
+## Month
+
+1. [Release](https://about.gitlab.com/releases/)
+1. [Retrospective](/handbook/communication/#kickoffs)
+1. [Most KPIs](/handbook/company/kpis/)
+
+## Week
+
+1. [1-1 cadence with reports](/handbook/leadership/1-1/)
+1. [E-Group Weekly](/handbook/company/e-group-weekly/)"
+Q008,"What activities occur on a quarterly cadence at GitLab, and how are they related to GitLab Assembly, board meetings, and earnings activities?",multi_hop,HybridRRFRetriever,0.5722432136535645,4,0.015625,hybrid_rrf,..\data\corpus\security\security-shadow.md,,17804,security,341,"During the shadow period, the participant will:
+
+- Work directly with a dedicated mentor from their chosen department
+- Participate in hands-on activities
+- Learn about different security domains and how they interconnect
+- Build relationships with security team members across the division
+- Attend function-specific meetings and activities"
+Q008,"What activities occur on a quarterly cadence at GitLab, and how are they related to GitLab Assembly, board meetings, and earnings activities?",multi_hop,HybridRRFRetriever,0.5722432136535645,5,0.015384615384615385,hybrid_rrf,..\data\corpus\company\working-groups\_index.md,,3587,working-groups,330,"### Working Group meetings
+
+The DRI should stand up meetings at the cadence appropriate for the Working Group, depending on the urgency/importance and timelines associated. The cadence of meetings should map to how quickly you are moving and the amount of synchronously touch points needed for alignment and decision making input."
+Q009,"How did GitLab become an all-remote company, and why does the company discourage hybrid work?",single_hop,HybridRRFRetriever,0.2434079647064209,1,0.01639344262295082,hybrid_rrf,..\data\corpus\company\history.md,,2877,company,326,"## How did GitLab become an all-remote company?
+
+{{< youtube ""jdN5mj5ieLk?start=14"" >}}
+
+As part of a Harvard Business School case study [interview](https://youtu.be/jdN5mj5ieLk), GitLab co-founder Sid Sijbrandij spoke with Professor Prithwiraj Choudhury regarding the company's early days and how he thought about all-remote."
+Q009,"How did GitLab become an all-remote company, and why does the company discourage hybrid work?",single_hop,HybridRRFRetriever,0.2434079647064209,2,0.016129032258064516,hybrid_rrf,..\data\corpus\company\culture\all-remote\guide\_index.md,,1053,guide,520,"## History
+
+Learn about [historical milestones, inflection points, and prescient interviews](/handbook/company/culture/all-remote/) in the evolution and expansion of remote work.
+
+## Hybrid-remote
+
+Hybrid-remote companies have one or more offices where a subset of the company commutes to each day, paired with a subset of the company that works remotely.
+
+Learn more about [advantages, challenges, and the primary differences between all-remote and other forms of remote working](/handbook/company/culture/all-remote/)."
+Q009,"How did GitLab become an all-remote company, and why does the company discourage hybrid work?",single_hop,HybridRRFRetriever,0.2434079647064209,3,0.015873015873015872,hybrid_rrf,..\data\corpus\company\culture\all-remote\stages.md,,1817,all-remote,388,"## 5. Hybrid-remote
+
+There are many flavors of [hybrid-remote](/handbook/company/culture/all-remote/). The key attribute of a hybrid-remote arrangement is that *some* employees — but not all — are allowed to work remotely 100% of the time. These organizations have at least one physical office, and on any given day, a significant portion of the team physically commutes to that location."
+Q009,"How did GitLab become an all-remote company, and why does the company discourage hybrid work?",single_hop,HybridRRFRetriever,0.2434079647064209,4,0.015625,hybrid_rrf,..\data\corpus\company\culture\all-remote\guide\_index.md,,1054,guide,486,"## Comparing All-Remote Benefits vs. Hybrid-Remote Benefits
+
+Learn more about the [differences in workplace experience](/handbook/company/culture/all-remote/) by individuals who are *remote by default* in an all-remote setting vs. a hybrid-remote setting, working with colleagues who are onsite by default.
+
+## Transitioning or adding remote
+
+Learn more about [considerations for transitioning a colocated or hybrid-remote company to 100% remote](/handbook/company/culture/all-remote/)."
+Q009,"How did GitLab become an all-remote company, and why does the company discourage hybrid work?",single_hop,HybridRRFRetriever,0.2434079647064209,5,0.015384615384615385,hybrid_rrf,..\data\corpus\people-group\learning-and-development\manager-development\_index.md,,8122,manager-development,579,"### Coaching remote work practices
+
+Do not assume that team members understand good remote work practices. GitLab managers are [expected](/handbook/company/structure/#management-group) to [coach](/handbook/leadership/coaching/) their reports to utilize [asyncronous communication](/handbook/company/culture/all-remote/), be [handbook-first](/handbook/about/handbook-usage/#why-handbook-first), design an [optimal workspace](/handbook/company/culture/all-remote/workspace/), and understand the importance of [self-learning and self-service](/handbook/company/culture/all-remote/)."
+Q010,"What is GitLab's current mission, and how does it differ from its previous mission of ""everyone can contribute""?",multi_hop,HybridRRFRetriever,0.258880615234375,1,0.01639344262295082,hybrid_rrf,..\data\corpus\hiring\_index.md,,6476,hiring,506,"---
+title: ""Hiring & Talent Acquisition Handbook""
+description: ""Landing page for many of the handbook pages the talent acquisition team at GitLab uses.""
+---
+
+At the core of our team's vision, mission, and strategy is our ability to impact GitLab's overarching [mission](/handbook/company/mission/): to make it so that **everyone can contribute to and co-create the software that powers our world**. When **everyone can contribute**, users become contributors and we greatly increase the rate of innovation."
+Q010,"What is GitLab's current mission, and how does it differ from its previous mission of ""everyone can contribute""?",multi_hop,HybridRRFRetriever,0.258880615234375,2,0.016129032258064516,hybrid_rrf,..\data\corpus\company\mission.md,,3204,company,547,"### From Act 1 to Act 2
+
+Our original mission was “everyone can contribute.” It was a claim about access — the people closest to the work should be able to shape the software they depend on.
+
+Act 2 carries that DNA forward. “Everyone” is still at the heart of what we do. What changes is the scope: from contributing code to shipping entire systems, autonomously, securely, at the speed of imagination.
+
+Everyone could contribute. Now everyone can ship.
+
+**GitLab’s mission** Unlock every team to ship trusted software at the speed of imagination."
+Q010,"What is GitLab's current mission, and how does it differ from its previous mission of ""everyone can contribute""?",multi_hop,HybridRRFRetriever,0.258880615234375,3,0.015873015873015872,hybrid_rrf,..\data\corpus\company\purpose.md,,3302,company,269,"### Mission
+
+Our purpose informs [our mission](/handbook/company/mission), and our mission is the way we realize our purpose. [Our mission](/handbook/company/mission) is to make it so **everyone can contribute** by using our product, to our product, and to our company."
+Q010,"What is GitLab's current mission, and how does it differ from its previous mission of ""everyone can contribute""?",multi_hop,HybridRRFRetriever,0.258880615234375,4,0.015625,hybrid_rrf,..\data\corpus\company\culture\inclusion\_index.md,,2077,inclusion,384,"## GitLab's Diversity Inclusion and Belonging Mission
+
+**Mission**:We create spaces where everyone belongs and deliver programs so that everyone can contribute.
+
+At GitLab, Diversity, Inclusion & Belonging (DIB) is fundamental to our success. We are building an environment where everyone can thrive and contribute through three strategic pillars:
+
+**Pillar 1: Empowering our people**"
+Q010,"What is GitLab's current mission, and how does it differ from its previous mission of ""everyone can contribute""?",multi_hop,HybridRRFRetriever,0.258880615234375,5,0.015384615384615385,hybrid_rrf,..\data\corpus\hiring\candidate-faq\_index.md,,6527,candidate-faq,463,"## What's it like to work at GitLab?
+
+Our [mission](/handbook/company/mission/) makes it clear that we believe in a world where everyone can contribute. We make that possible at GitLab by [running our operations on our product](/handbook/people-group/) and staying aligned with our [values](/handbook/values/).
+
+{{% details summary=""Explore the resources below for a deeper understanding of working at GitLab — one of the world's largest all-remote companies"" %}}"
+Q011,"How should a team member submit an expense report after business travel, and what happens if the report is submitted more than 90 days after the purchase?",multi_hop,HybridRRFRetriever,0.35097217559814453,1,0.01639344262295082,hybrid_rrf,..\data\corpus\finance\spending-company-money.md,,6413,finance,530,"1. File your expense report in a timely manner, as expense claims over 90 days from purchase date will not be reimbursed unless approved by your Manager.  The sooner it is submitted, the sooner you will get reimbursement.
+1. If team members knowingly submit expenses for reimbursement for personal purchases that are not covered in the expense policy, this is a violation of our [Code of Business Conduct & Ethics](https://s204.q4cdn.com/984476563/files/doc_downloads/govdoc/GitLab-Code-of-Business-Conduct-Ethics-2024-06-25.pdf)."
+Q011,"How should a team member submit an expense report after business travel, and what happens if the report is submitted more than 90 days after the purchase?",multi_hop,HybridRRFRetriever,0.35097217559814453,2,0.016129032258064516,hybrid_rrf,..\data\corpus\finance\accounting\_index.md,,5170,accounting,557,"1. Team members in a US expense policy will be automatically reimbursed through Navan after their report is ""final approved"" within 1-4 business days.
+    - The team member must set up their bank account in Navan.
+    - Once an team member is reimbursed, Navan will auto sync the payment to the expense record to mark the report as reimbursed.
+    - This will feed into NetSuite to show the bill as fully paid as well.
+1. Team memebers in a country paid through PEO will also receive expense reimbursement through their same payroll PEO payments each month."
+Q011,"How should a team member submit an expense report after business travel, and what happens if the report is submitted more than 90 days after the purchase?",multi_hop,HybridRRFRetriever,0.35097217559814453,3,0.015873015873015872,hybrid_rrf,..\data\corpus\people-group\time-off-and-absence\leave-types.md,,9237,time-off-and-absence,135,- Leaves of more than 180 days: The team member must apply for reinstatement no more than 90 days after completion of military service.
+Q011,"How should a team member submit an expense report after business travel, and what happens if the report is submitted more than 90 days after the purchase?",multi_hop,HybridRRFRetriever,0.35097217559814453,4,0.015625,hybrid_rrf,..\data\corpus\security\security-operations\trustandsafety\faq.md,,17754,trustandsafety,531,"### Report Abuse button(s)
+
+{{% details summary=""What happens when I press the `Report Abuse` button or `Report Abuse dropdown?"" %}}
+
+1. Using the `Report Abuse` or `Report Abuse to gitlab admin` button will open up a window where you can directly report a user for activity that is considered abusive or disruptive.
+1. A member of our team will review your report and take appropriate action should the activity or content violate our terms of use.
+{{% /details %}}
+
+{{% details summary=""How do I use the `Report Abuse` form?"" %}}"
+Q011,"How should a team member submit an expense report after business travel, and what happens if the report is submitted more than 90 days after the purchase?",multi_hop,HybridRRFRetriever,0.35097217559814453,5,0.015384615384615385,hybrid_rrf,..\data\corpus\people-group\time-off-and-absence\leave-types.md,,9236,time-off-and-absence,572,"- The team member gave the employer notice of the need for military leave,
+- The team member was released under honorable conditions,
+- The team member returned and applied for re-employment within the following time restrictions:
+  - Leaves of less than 31 days: The team member must report to work on the first regularly scheduled work period following the completion of military service; no application is required.
+  - Leaves of more than 31 days but less than 180 days: The team member must apply for reinstatement within 14 days after completion of military service."
+Q012,"What should a traveler do if they feel unsafe traveling for work, and what travel restrictions exist for company-owned devices?",multi_hop,HybridRRFRetriever,0.2607910633087158,1,0.01639344262295082,hybrid_rrf,..\data\corpus\people-policies\_index.md,,9486,people-policies,439,"1. Do the research. Have some familiarity with the destination before you arrive. Check with your country's government department that provides advice for traveling overseas:
+    - United States: check the State Department's website for country updates and enroll in a Traveler Program such as [Smart Traveler Enrollment Program (STEP)](https://mytravel.state.gov/s/step).
+    - New Zealand: [Safe Travel](https://www.safetravel.govt.nz/)."
+Q012,"What should a traveler do if they feel unsafe traveling for work, and what travel restrictions exist for company-owned devices?",multi_hop,HybridRRFRetriever,0.2607910633087158,2,0.016129032258064516,hybrid_rrf,..\data\corpus\finance\travel\_index.md,,6447,travel,692,"### Trade Compliance Considerations
+
+Although GitLab is an all-remote company that encourages working from anywhere, some places are subject to trade control restrictions. For this reason, team members cannot take company-owned devices to or otherwise work from US-embargoed countries or regions under any circumstances. US-embargoed countries currently include Cuba, Iran, North Korea, and Syria and US-embargoed regions include the Crimea, Donetsk, and Luhansk regions of Ukraine; however, that list is subject to change without notice. Additionally, team members cannot take company-owned devices to or otherwise work from Russia or Belarus, which are also subject to various restrictions."
+Q012,"What should a traveler do if they feel unsafe traveling for work, and what travel restrictions exist for company-owned devices?",multi_hop,HybridRRFRetriever,0.2607910633087158,3,0.015873015873015872,hybrid_rrf,..\data\corpus\company\culture\all-remote\guide\_index.md,,1055,guide,570,"## What not to do when implementing remote
+
+An organization should not attempt to merely replicate the in-office/colocated experience, remotely.
+
+Learn more about [what not to do when transitioning to remote, or moving towards remote](../what-not-to-do/).
+
+## Working while traveling
+
+Working remotely enables a tremendous amount of freedom, enabling team members to work from anywhere so long as there is a reliable internet connection.
+
+Learn more about [optimizing comfort and efficiency when taking your office with you while traveling](../working-while-traveling/)."
+Q012,"What should a traveler do if they feel unsafe traveling for work, and what travel restrictions exist for company-owned devices?",multi_hop,HybridRRFRetriever,0.2607910633087158,4,0.015625,hybrid_rrf,..\data\corpus\security\policies_and_standards\physical-security-standard-for-company-assets.md,,14260,policies_and_standards,439,"- [Secure your data during travel](/handbook/finance/travel/#secure-your-data-during-travels) ensuring that you are in a secure place and no-one can hear you when you are talking about restricted data, and locking your device when it is not in use.
+
+- Do not bring company-owned devices to [embargoed countries](/handbook/sales/#export-control-classification-and-countries-we-do-not-do-business-in) without consulting the Legal Department."
+Q012,"What should a traveler do if they feel unsafe traveling for work, and what travel restrictions exist for company-owned devices?",multi_hop,HybridRRFRetriever,0.2607910633087158,5,0.015384615384615385,hybrid_rrf,..\data\corpus\people-group\relocation.md,,8884,people-group,518,"#### Considerations for Short-Term Travel
+
+GitLab is an all-remote company that allows it's team members to work from most places globally, however, some places are subject to trade control restrictions. For this reason, team members cannot take company-owned devices to or otherwise work from US-embargoed countries or regions under any circumstances. The U.S. embargoed country list includes but not limited to Cuba, Iran, North Korea, Syria, Russia, Belarus, and the Crimea, Donetsk, and Luhansk regions of Ukraine."
+Q013,"What is the difference between spending company money using a personal credit card, a Navan physical card, and a purchase order?",single_hop,HybridRRFRetriever,0.25811100006103516,1,0.01639344262295082,hybrid_rrf,..\data\corpus\finance\spending-company-money.md,,6417,finance,650,"1. Individual expenses that meet the expense policy on your personal credit card: Please see our [Global Travel and Expense Policy](/handbook/finance/expenses/) to see what we will reimburse and how to get reimbursement.
+1. Individual expenses using a virtual card: Please see our [Global Travel and Expense Policy](/handbook/finance/expenses/).
+1. Individual expenses using a Navan physical card. Please see our [Navan Physical Card Policy](/handbook/finance/accounts-payable/corp-credit-cards/).
+1. Company expenses using a Coupa virtual card: [Coupa Virtual Card](/handbook/business-technology/enterprise-applications/guides/coupa-virtual-cards/)."
+Q013,"What is the difference between spending company money using a personal credit card, a Navan physical card, and a purchase order?",single_hop,HybridRRFRetriever,0.25811100006103516,2,0.016129032258064516,hybrid_rrf,..\data\corpus\finance\accounts-payable\_index.md,,5303,accounts-payable,452,"- Please review the page on [Spending Company Money](/handbook/finance/spending-company-money/) to ensure that your spend is within GitLab's [Expense policy](/handbook/finance/expenses/).
+- GitLab utilizes **Navan Travel** for all travel related Flights, Hotels, Train Travel and Vehicle Rental bookings and **Navan Expense** for all Employee reimbursable expenses.
+- It also includes the preparation for **Navan Purchase Card** and **Physical Cards**."
+Q013,"What is the difference between spending company money using a personal credit card, a Navan physical card, and a purchase order?",single_hop,HybridRRFRetriever,0.25811100006103516,3,0.015873015873015872,hybrid_rrf,..\data\corpus\finance\expenses.md,,5422,finance,401,"- Always bring a credit card with you when traveling for company business if you have one. Hotels will generally expect you to have a physical credit card to present upon check-in. This credit card will be kept on file for the duration of your stay. Even if your lodging was pre-paid by the company or by using a company credit card, the Hotel may still require a card to be on file for ""incidentals""."
+Q013,"What is the difference between spending company money using a personal credit card, a Navan physical card, and a purchase order?",single_hop,HybridRRFRetriever,0.25811100006103516,4,0.015625,hybrid_rrf,..\data\corpus\finance\spending-company-money.md,,6414,finance,268,"## Policy Links and Resources
+
+This table captures all of the links for different policies that are documented around using Company money. This includes information of when to use our expense tool Navan, when to use a virtual credit card and when to get a PO from Zip."
+Q013,"What is the difference between spending company money using a personal credit card, a Navan physical card, and a purchase order?",single_hop,HybridRRFRetriever,0.25811100006103516,5,0.015384615384615385,hybrid_rrf,..\data\corpus\finance\travel\sponsored.md,,6473,travel,650,"1. Always bring a credit card with you when traveling for company business if you have one.
+1. Hotels will generally expect you to have a physical credit card to present upon check-in. This credit card will be kept on file for the duration of your stay. Even if your lodging was pre-paid by the company, the hotel may still require a card to be on file for ""incidentals"".
+1. If you incur any work-travel related expenses (on your personal card or a GitLab company card), please make sure to save the original receipt.
+1. When your trip is complete, please file an expense report via Navan Expense or include the receipts on your next monthly invoice."
+Q014,"What happens during the quarterly earnings process, and which teams are primarily responsible for preparing the earnings release?",single_hop,HybridRRFRetriever,0.23602604866027832,1,0.01639344262295082,hybrid_rrf,..\data\corpus\finance\investor-relations.md,,5811,finance,506,"## Quarterly Earnings Process
+
+As a public company we share financial results publicly after the close of each fiscal quarter or fiscal year. The key deliverables for each earnings cycle are:
+
+- Earnings press release summarizing business & financial results, providing guidance
+- Earnings call with prepared remarks by CEO and CFO followed by Q&A with sellside analysts
+- Updated investor presentation , webcast, transcript, posted to ir.gitlab.com
+- File required forms with the SEC, e.g. 10-Q, 10-K, 8-K"
+Q014,"What happens during the quarterly earnings process, and which teams are primarily responsible for preparing the earnings release?",single_hop,HybridRRFRetriever,0.23602604866027832,2,0.016129032258064516,hybrid_rrf,..\data\corpus\company\gitlab-all-company-meetings.md,,2857,company,392,"## Post-Earnings Recap & AMA
+
+Held the week of our quarterly Earnings Call, the Post-Earnings Recap & AMA is an opportunity for team members to ask questions related to our Financial Results.
+
+For more information about our quarterly Earnings process, visit the [Investor Relations Handbook page](/handbook/finance/investor-relations/).
+
+The Post-Earnings Recap & AMA is a Finance initiative."
+Q014,"What happens during the quarterly earnings process, and which teams are primarily responsible for preparing the earnings release?",single_hop,HybridRRFRetriever,0.23602604866027832,3,0.015873015873015872,hybrid_rrf,..\data\corpus\finance\readmes\yao-chew.md,,6402,readmes,213,"## My Role
+
+1. I head up Investor Relations. I am the primary point of contact for public investors, craft and manage GitLab’s Equity Narrative, and handle a lot of our quarterly earnings and post earnings process"
+Q014,"What happens during the quarterly earnings process, and which teams are primarily responsible for preparing the earnings release?",single_hop,HybridRRFRetriever,0.23602604866027832,4,0.015625,hybrid_rrf,..\data\corpus\company\gitlab-all-company-meetings.md,,2845,company,491,"## Timing
+
+Timing of team member touchpoints:
+
+- [Earnings Call](/handbook/finance/investor-relations/#quarterly-earnings-process) (first half of the second month of the quarter): Public call that team members are invited to attend
+- [Post-Earnings Recap & AMA](#post-earnings-recap--ama) (immediately following earnings): A 25 minute private AMA occurring after Earnings
+- [Assembly](/handbook/people-group/employment-branding/people-communications/#gitlab-assembly) (start of each quarter)"
+Q014,"What happens during the quarterly earnings process, and which teams are primarily responsible for preparing the earnings release?",single_hop,HybridRRFRetriever,0.23602604866027832,5,0.015384615384615385,hybrid_rrf,..\data\corpus\finance\investor-relations.md,,5817,finance,544,"1. Financials and metrics close
+1. Accounting and FP&A provide summaries of quarterly results for inclusion into all deliverables
+1. CFO, IR, FP&A, and Accounting discuss key financial & metrics trends for inclusion into the script and Q&A. FP&A ships CFO metrics briefing pack
+1. Corporate Communications team issues the press release announcing the earnings date and webcast information
+1. Once this press release is published, IR will contact sell side research analysts to schedule callbacks following the conclusion of the earnings webcast"
+Q015,How do GitLab's transparency values interact with investor relations and quarterly earnings communications?,multi_hop,HybridRRFRetriever,0.17692041397094727,1,0.01639344262295082,hybrid_rrf,..\data\corpus\finance\readmes\yao-chew.md,,6402,readmes,213,"## My Role
+
+1. I head up Investor Relations. I am the primary point of contact for public investors, craft and manage GitLab’s Equity Narrative, and handle a lot of our quarterly earnings and post earnings process"
+Q015,How do GitLab's transparency values interact with investor relations and quarterly earnings communications?,multi_hop,HybridRRFRetriever,0.17692041397094727,2,0.016129032258064516,hybrid_rrf,..\data\corpus\company\gitlab-all-company-meetings.md,,2857,company,392,"## Post-Earnings Recap & AMA
+
+Held the week of our quarterly Earnings Call, the Post-Earnings Recap & AMA is an opportunity for team members to ask questions related to our Financial Results.
+
+For more information about our quarterly Earnings process, visit the [Investor Relations Handbook page](/handbook/finance/investor-relations/).
+
+The Post-Earnings Recap & AMA is a Finance initiative."
+Q015,How do GitLab's transparency values interact with investor relations and quarterly earnings communications?,multi_hop,HybridRRFRetriever,0.17692041397094727,3,0.015873015873015872,hybrid_rrf,..\data\corpus\finance\financial-planning-and-analysis\_index.md,,5574,financial-planning-and-analysis,264,"#### Quarterly Earnings Process
+
+As a public company we share financial results publicly after the close of each fiscal quarter or fiscal year. The purpose, timeline, and deliverables can be found on our Investor Relations page [here](../investor-relations/).
+
+---"
+Q015,How do GitLab's transparency values interact with investor relations and quarterly earnings communications?,multi_hop,HybridRRFRetriever,0.17692041397094727,4,0.015625,hybrid_rrf,..\data\corpus\company\gitlab-all-company-meetings.md,,2845,company,491,"## Timing
+
+Timing of team member touchpoints:
+
+- [Earnings Call](/handbook/finance/investor-relations/#quarterly-earnings-process) (first half of the second month of the quarter): Public call that team members are invited to attend
+- [Post-Earnings Recap & AMA](#post-earnings-recap--ama) (immediately following earnings): A 25 minute private AMA occurring after Earnings
+- [Assembly](/handbook/people-group/employment-branding/people-communications/#gitlab-assembly) (start of each quarter)"
+Q015,How do GitLab's transparency values interact with investor relations and quarterly earnings communications?,multi_hop,HybridRRFRetriever,0.17692041397094727,5,0.015384615384615385,hybrid_rrf,..\data\corpus\company\being-a-public-company.md,,600,company,463,"1. Building out a fulsome compliance program which includes: securities law trainings, communications policies, handbook adjustments, required policies such as insider / [trading window](/handbook/finance/investor-relations/#trading-window)
+1. Maintaining a high degree of [transparency](/handbook/values/#transparency) that we believe increases contributions and makes collaboration easier. This is a core value and may result in higher than expected volatility."
+Q016,"If someone participates in the CFO Shadow Program, what confidentiality requirements and trading restrictions apply?",multi_hop,HybridRRFRetriever,0.19832730293273926,1,0.01639344262295082,hybrid_rrf,..\data\corpus\finance\growth-and-development\cfo-shadow-program.md,,5733,growth-and-development,671,"The CFO Shadow program consists of a 1 or 2 week rotation, depending on the CFO's availability, where the shadow attends nearly all meetings with the CFO on Tuesday, Wednesday, and Thursday typically. If 2 consecutive weeks are available, the CFO shadow can apply to be scheduled for both weeks. Meetings are all-remote, so the program does not require travel, and meetings are conducted in regular business hours in Eastern Standard Time.  Shadows should work with their managers to treat the Tues-Thurs of both weeks that they are participating in the program as time away from their day-to-day role so that they are able to focus primarily on the CFO Shadow experience"
+Q016,"If someone participates in the CFO Shadow Program, what confidentiality requirements and trading restrictions apply?",multi_hop,HybridRRFRetriever,0.19832730293273926,2,0.016129032258064516,hybrid_rrf,..\data\corpus\finance\growth-and-development\_index.md,,5717,growth-and-development,685,"In FY23Q1, we are implementing a CFO Shadow Program which will initially by available to Finance Division team members. The CFO Shadow Program will be modeled off of the [CEO Shadow Program](/handbook/ceo/shadow#eligibility) which has proven to be a differentiated and impactful development opportunity for GitLab team members. The goal of the CFO Shadow Program is to extend that opportunity to team members with an interest and background in Business and/or Finance who are interested in learning more about what it means to be a CFO at a publicly traded company. The exposure from this experience is intended to support both the long and short term career development of the shadow."
+Q016,"If someone participates in the CFO Shadow Program, what confidentiality requirements and trading restrictions apply?",multi_hop,HybridRRFRetriever,0.19832730293273926,3,0.015873015873015872,hybrid_rrf,..\data\corpus\finance\growth-and-development\_index.md,,5718,growth-and-development,389,"The CFO Shadow Program is a rotation that runs over the course of 2 weeks, with the shadow attending meetings with the CFO for 3 days per week (Tuesday - Thursday) during each week (aligned with EST). More information about the program logistics can be found in our [CFO Shadow Program page](/handbook/finance/growth-and-development/cfo-shadow-program/)
+
+**Training Aligned to GitLab L&D**"
+Q016,"If someone participates in the CFO Shadow Program, what confidentiality requirements and trading restrictions apply?",multi_hop,HybridRRFRetriever,0.19832730293273926,4,0.015625,hybrid_rrf,..\data\corpus\security\security-shadow-sec-eng-res.md,,17783,security,653,"---
+title: ""Security Shadow: Product Security""
+---
+
+Completion of each course you will receive a certificate. At the completion of all 3 courses your name will be recognized on this page.
+
+## Restrictions
+
+Please keep in mind that there are [some restrictions](/handbook/security/transparency-by-default/#restricted-security-only-or-other-restrictions-imposed) on what can and cannot be shared as part of the shadow program, particularly related to high severity vulnerabilities or incidents.
+
+For example if a shadow is watching an AppSec team member triage HackerOne issues and a High or Critical vulnerability is reported, the shadow call should end."
+Q016,"If someone participates in the CFO Shadow Program, what confidentiality requirements and trading restrictions apply?",multi_hop,HybridRRFRetriever,0.19832730293273926,5,0.015384615384615385,hybrid_rrf,..\data\corpus\finance\growth-and-development\cfo-shadow-program.md,,5736,growth-and-development,678,"### Confidentiality
+
+Participating in the shadow program is a privilege where you will be exposed to confidential information. This is underpinned by trust in the shadows to honor the confidentiality of topics being discussed and information shared. The continuation of this program is entirely dependent on shadows past, present, and future honoring this trust placed in them. Please be aware that the role of CFO Shadow will place you on the Designated Insider list for that quarter. You will need to request pre-clearance to trade during the open window. More info on the Designated Insider list and pre-clearance can be found [here](/handbook/legal/publiccompanyresources/)."
+Q017,"How does the CFO Shadow Program prepare participants before they begin shadowing, and what responsibilities do they have during meetings?",single_hop,HybridRRFRetriever,0.31845641136169434,1,0.01639344262295082,hybrid_rrf,..\data\corpus\finance\growth-and-development\cfo-shadow-program.md,,5733,growth-and-development,671,"The CFO Shadow program consists of a 1 or 2 week rotation, depending on the CFO's availability, where the shadow attends nearly all meetings with the CFO on Tuesday, Wednesday, and Thursday typically. If 2 consecutive weeks are available, the CFO shadow can apply to be scheduled for both weeks. Meetings are all-remote, so the program does not require travel, and meetings are conducted in regular business hours in Eastern Standard Time.  Shadows should work with their managers to treat the Tues-Thurs of both weeks that they are participating in the program as time away from their day-to-day role so that they are able to focus primarily on the CFO Shadow experience"
+Q017,"How does the CFO Shadow Program prepare participants before they begin shadowing, and what responsibilities do they have during meetings?",single_hop,HybridRRFRetriever,0.31845641136169434,2,0.016129032258064516,hybrid_rrf,..\data\corpus\finance\growth-and-development\_index.md,,5718,growth-and-development,389,"The CFO Shadow Program is a rotation that runs over the course of 2 weeks, with the shadow attending meetings with the CFO for 3 days per week (Tuesday - Thursday) during each week (aligned with EST). More information about the program logistics can be found in our [CFO Shadow Program page](/handbook/finance/growth-and-development/cfo-shadow-program/)
+
+**Training Aligned to GitLab L&D**"
+Q017,"How does the CFO Shadow Program prepare participants before they begin shadowing, and what responsibilities do they have during meetings?",single_hop,HybridRRFRetriever,0.31845641136169434,3,0.015873015873015872,hybrid_rrf,..\data\corpus\finance\growth-and-development\cfo-shadow-program.md,,5744,growth-and-development,292,"- Like all meetings at GitLab, meetings will begin promptly, regardless of the shadows' attendance.
+- The CFO's Staff EBA will ask external people if they are comfortable with the shadows joining prior to the scheduled meeting, and will share a link to the CFO shadow page to provide context."
+Q017,"How does the CFO Shadow Program prepare participants before they begin shadowing, and what responsibilities do they have during meetings?",single_hop,HybridRRFRetriever,0.31845641136169434,4,0.015625,hybrid_rrf,..\data\corpus\security\security-shadow.md,,17806,security,519,"## Shadow Program Time Commitment and Structure
+
+The time commitment for the Shadow program is 4-6 weeks for 2-4 hours per week. The Shadow mentor will be responsible for:
+
+- Developing a shadow agenda
+- Determining specific topics to be covered during the shadow experience
+- Selecting appropriate activities and meetings for the participant to participate in
+- Providing guidance and answering questions throughout the program
+
+While each participating department will have a customized agenda, all participants will:"
+Q017,"How does the CFO Shadow Program prepare participants before they begin shadowing, and what responsibilities do they have during meetings?",single_hop,HybridRRFRetriever,0.31845641136169434,5,0.015384615384615385,hybrid_rrf,..\data\corpus\finance\growth-and-development\cfo-shadow-program.md,,5739,growth-and-development,610,"### Practice your introduction
+
+It's important that you represent yourself correctly when joining meetings, both internally and externally. You can introduce yourself by stating your name, your normal title, and then by stating that you are in the CFO Shadow Program. The stated purpose should be to give participants an overview of the finance function at GitLab. You will update your Zoom name to include ""CFO-Shadow"" to provide clarity for why you are joining calls.
+
+It will be helpful to read more about introductions related to the [CEO Shadow Program here](/handbook/ceo/shadow#ceo-shadow-introductions)"
+Q018,"How are employee expenses reimbursed, and how does the reimbursement process differ for US employees versus non-US employees?",single_hop,HybridRRFRetriever,0.31050729751586914,1,0.01639344262295082,hybrid_rrf,..\data\corpus\finance\accounting\_index.md,,5171,accounting,606,"- **Please Note:**  The timing of reimbursement can vary if you are being reimbursed directly from payroll, CXC, SafeGuard, Global PEO, Remote and/or iiPay.
+    - More information on the timing of payouts can be found [here](https://internal.gitlab.com/handbook/finance/expenses/#44-reimbursement-payout-timelines)
+1. All non-US GitLab entities will be reimbursed through their respective payroll provider or paid directly through GitLab's Accounts Payable (AP) department with the normal weekly payment run.
+    - Expense report must have been ""final approved"" no later than EOD Tuesday of that same week."
+Q018,"How are employee expenses reimbursed, and how does the reimbursement process differ for US employees versus non-US employees?",single_hop,HybridRRFRetriever,0.31050729751586914,2,0.016129032258064516,hybrid_rrf,..\data\corpus\people-group\offboarding\faq.md,,8285,offboarding,674,"### When do I submit my final reimbursable expenses?
+
+Please create your final expense report in Navan (for employees), OR, please file any outstanding expenses with your final invoice (for contractors), so these can be reimbursed to you in a timely manner. We ask that you submit these at least one week before your departure date.
+
+### How do I submit reimbursable expenses if I don't have a GitLab access to Navan?
+
+Please follow the process as listed on the Expense Handbook [page](https://internal.gitlab.com/handbook/finance/expenses/#expense-reimbursement-for-terminated-team-members). For any queries regarding final expenses, please send an email to `ap@gitlab.com`"
+Q018,"How are employee expenses reimbursed, and how does the reimbursement process differ for US employees versus non-US employees?",single_hop,HybridRRFRetriever,0.31050729751586914,3,0.015873015873015872,hybrid_rrf,..\data\corpus\total-rewards\stock-options.md,,18757,total-rewards,637,"## Stock Options
+
+In the past at GitLab, we have given equity grants in the form of Incentive Stock Options (ISOs) and Non-Qualified Stock Options (NQs). It's called an option because you have the option to    buy GitLab stock, subject to vesting terms, at the exercise price provided at the time of grant.
+
+The difference in these two types of grants are, generally, as follows:
+
+- ISOs are issued to US employees and carry a special form of tax treatment recognized by the US Internal Revenue Service (IRS).
+- NQs are granted to contractors and non-US employees.
+
+GitLab is not giving equity grants in the form of options at this time."
+Q018,"How are employee expenses reimbursed, and how does the reimbursement process differ for US employees versus non-US employees?",single_hop,HybridRRFRetriever,0.31050729751586914,4,0.015625,hybrid_rrf,..\data\corpus\company\culture\all-remote\onboarding.md,,1566,all-remote,304,"### How is onboarding a remote employee different from an office employee?
+
+Because remote onboarding is mostly self-guided, the real-time face-to-face ability for new employees to ask questions does not exist. Knowing this, we've created some important reminders for onboarding remote employees such as:"
+Q018,"How are employee expenses reimbursed, and how does the reimbursement process differ for US employees versus non-US employees?",single_hop,HybridRRFRetriever,0.31050729751586914,5,0.015384615384615385,hybrid_rrf,..\data\corpus\people-group\learning-and-development\growth-and-development\_index.md,,7998,growth-and-development,402,"These expenses are funded from the requestor's department Travel & Expense budget, not from the G&D allocation.
+
+#### 50% upfront reimbursement
+
+All requests may use the split disbursement option when applicable:
+
+- 50% of the approved opportunity cost can be reimbursed after payment
+- the remaining 50% can be reimbursed upon completion
+
+This option does not apply to travel, hotel, or meal expenses."
+Q019,"If a team member purchases goods on behalf of GitLab, what approvals and procurement steps are required before Accounts Payable processes the invoice?",multi_hop,HybridRRFRetriever,0.3751561641693115,1,0.01639344262295082,hybrid_rrf,..\data\corpus\finance\accounting\_index.md,,5128,accounting,281,"## Procure to Pay
+
+Procure to pay is the process of requisitioning, purchasing, receiving, paying for and accounting for goods and services. It includes the following sub processes of both the [Procurement](../procurement/) and [Accounts Payable](../accounts-payable/) departments:"
+Q019,"If a team member purchases goods on behalf of GitLab, what approvals and procurement steps are required before Accounts Payable processes the invoice?",multi_hop,HybridRRFRetriever,0.3751561641693115,2,0.016129032258064516,hybrid_rrf,..\data\corpus\finance\accounting\_index.md,,5178,accounting,657,"If further approval is not required, then proceed to the Procurement [""What are you buying"" page](/handbook/finance/procurement/#the-procurement-process) for further instructions on the purchasing process at GitLab. Once those procedures are complete, have your vendor send their invoice to Accounts Payable: *ap@gitlab.com*.  Most importantly, the team member making the purchase request is ultimately responsible for final review and approval of the invoices. Final review and approval are critical process controls that help ensure we do not make erroneous payments to vendors. All original invoices and payment receipts must be sent to Accounts Payable."
+Q019,"If a team member purchases goods on behalf of GitLab, what approvals and procurement steps are required before Accounts Payable processes the invoice?",multi_hop,HybridRRFRetriever,0.3751561641693115,3,0.015873015873015872,hybrid_rrf,..\data\corpus\finance\procurement\_index.md,,5955,procurement,394,"## The Procurement Process
+
+Anytime a group of suppliers are being evaluated for services/goods or a purchase is being made on behalf of GitLab that does not qualify as a [personal expense](/handbook/finance/expenses/) or meet the list of [exceptions](#what-are-the-exceptions-to-the-po-policy), Procurement must be engaged BEFORE a purchase and/or work can begin. Start the Procurement Process"
+Q019,"If a team member purchases goods on behalf of GitLab, what approvals and procurement steps are required before Accounts Payable processes the invoice?",multi_hop,HybridRRFRetriever,0.3751561641693115,4,0.015625,hybrid_rrf,..\data\corpus\finance\accounting\_index.md,,5148,accounting,515,"#### Rejecting an Invoice in Coupa
+
+The invoice rejection process in Coupa allows the Accounts Payable team to make adjustments on invoices before restarting approvals, continuing approvals or disputing the invoice back to the supplier. This is an internal status that suppliers cannot see indicating that an approver or approval group rejected the invoice. Comments are required when rejecting an invoice - please provide as much detail/information as possible.
+
+#### Manually Entering a Bill (invoice) in NetSuite"
+Q019,"If a team member purchases goods on behalf of GitLab, what approvals and procurement steps are required before Accounts Payable processes the invoice?",multi_hop,HybridRRFRetriever,0.3751561641693115,5,0.015384615384615385,hybrid_rrf,..\data\corpus\finance\accounting\_index.md,,5146,accounting,634,"{{% panel header=""**Top information to verify before approving an invoice**"" header-bg=""green"" %}}
+
+- Verify invoice copy is attached
+- Verify correct PO is matched
+- Verify coding (Billing) is correct
+- Verify service date is entered and correct
+- Verify tag/class is entered (if applicable)
+- Verify invoice total is correct
+
+If there are issues with any of the above items, please tag `@Accounts Payable Approval Group` in the Comments section with details.
+{{% /panel %}}
+
+#### Disputing an Invoice in Coupa
+
+The invoice dispute process in Coupa enables the Accounts Payable team to request corrections on invoices from suppliers."
+Q020,How do GitLab's expense policies encourage responsible spending while still supporting employee learning and professional development?,multi_hop,HybridRRFRetriever,0.2714202404022217,1,0.01639344262295082,hybrid_rrf,..\data\corpus\people-group\learning-and-development\hone.md,,8047,learning-and-development,592,"## Frequently Asked Questions
+
+### How is this different from Elevate?
+
+While Hone is the platform partner for both initiatives, this partnership provides broader access to professional development content beyond the structured Elevate program. Elevate remains our core leadership development program, while this partnership offers additional flexible learning opportunities.
+
+### Do I need to complete specific courses?
+
+The H1 and H2 programs have specific focus areas we encourage all people leaders to complete. Beyond these, you can choose courses that align with your development goals."
+Q020,How do GitLab's expense policies encourage responsible spending while still supporting employee learning and professional development?,multi_hop,HybridRRFRetriever,0.2714202404022217,2,0.016129032258064516,hybrid_rrf,..\data\corpus\people-group\learning-and-development\growth-and-development\tax.md,,8038,growth-and-development,630,"| Brazil | Academic study, Your 4th Trimester Coaching, Professional coaching, English language courses, Professional development/ certification/ licenses, Professional dues/ membership    Workshops and Conferences, Self-service learning (LinkedIn Learning, Coursera, othera)  | Any of the items below can not be taxable if it is just sent as expense reimbursement. If the requirement is to advance an amount for reimbursement, it would be required to invoice the amount first, and when the employee requires to but any item, the ICE will make the deposit so the employee can buy and in the moment sends the vouchers to the ICE. |"
+Q020,How do GitLab's expense policies encourage responsible spending while still supporting employee learning and professional development?,multi_hop,HybridRRFRetriever,0.2714202404022217,3,0.015873015873015872,hybrid_rrf,..\data\corpus\people-group\learning-and-development\growth-and-development\tax.md,,8031,growth-and-development,685,"| Netherlands | Academic study, Your 4th Trimester Coaching, Professional coaching, English language courses, Professional development/ certification/ licenses, Professional dues/ membership    Workshops and Conferences, Self-service learning (LinkedIn Learning, Coursera, othera)  | it's allowed and tax free to pay for conferences and college fees for employees in the Netherlands as long as they need this for their job. When we can document that the employee needs this to be able to do their work properly than it's fine to pay for this from the company and its tax free. The employee cannot deduct the costs for these in their income tax return because the company paid for it. |"
+Q020,How do GitLab's expense policies encourage responsible spending while still supporting employee learning and professional development?,multi_hop,HybridRRFRetriever,0.2714202404022217,4,0.015625,hybrid_rrf,..\data\corpus\people-group\learning-and-development\growth-and-development\tax.md,,8026,growth-and-development,664,"| Hungary | Academic study, Your 4th Trimester Coaching, Professional coaching, English language courses, Professional development/ certification/ licenses, Professional dues/ membership    Workshops and Conferences, Self-service learning (LinkedIn Learning, Coursera, othera)  | In principal training and education costs shall be recorded as expense of the company so ideally these are not staff costs. Only if there are no invoices issued in the name of the Company and we need to reimburse the cost to the employee. In this case this is taxable as regular salary, so e.g. if we reimburse net HUF 100.000 to the employee it means it is run through payroll as cca"
+Q020,How do GitLab's expense policies encourage responsible spending while still supporting employee learning and professional development?,multi_hop,HybridRRFRetriever,0.2714202404022217,5,0.015384615384615385,hybrid_rrf,..\data\corpus\finance\accounts-payable\_index.md,,5303,accounts-payable,452,"- Please review the page on [Spending Company Money](/handbook/finance/spending-company-money/) to ensure that your spend is within GitLab's [Expense policy](/handbook/finance/expenses/).
+- GitLab utilizes **Navan Travel** for all travel related Flights, Hotels, Train Travel and Vehicle Rental bookings and **Navan Expense** for all Employee reimbursable expenses.
+- It also includes the preparation for **Navan Purchase Card** and **Physical Cards**."
+Q051,"What eligibility requirements must an internal employee satisfy before applying for another role, and who verifies those requirements?",multi_hop,HybridRRFRetriever,0.2703855037689209,1,0.01639344262295082,hybrid_rrf,..\data\corpus\people-group\visas.md,,9428,people-group,407,"#### Singapore Employment Pass
+
+This is an employer-sponsored temporary employment visa. GitLab can support the transfer of this visa from another employer to GitLab Singapore PTE Ltd. To be eligible for the Singapore Employment pass, The candidate must be (1) currently based in Singapore; (2) applying for a quota-carrying role; and (3) meet the relevant requirements under the Ministry of Manpower (MOM)."
+Q051,"What eligibility requirements must an internal employee satisfy before applying for another role, and who verifies those requirements?",multi_hop,HybridRRFRetriever,0.2703855037689209,2,0.016129032258064516,hybrid_rrf,..\data\corpus\people-group\promotions-transfers.md,,8596,people-group,562,"Upon applying for a new role, it's recommended that team members understand the impact of the change based on their current job level and family.
+
+Note: If a team member wishes to move from an Individual Contributor to a Management position, the position must be posted and follow the normal hiring process steps to ensure all interested candidates have the chance to apply. This provides an equitable and transparent process for everyone.  
+
+Internal mobility opportunities are dependent on [employee eligibility](/handbook/hiring) and available open headcount."
+Q051,"What eligibility requirements must an internal employee satisfy before applying for another role, and who verifies those requirements?",multi_hop,HybridRRFRetriever,0.2703855037689209,3,0.015873015873015872,hybrid_rrf,..\data\corpus\hiring\talent-acquisition-framework\internal-hiring-process.md,,7036,talent-acquisition-framework,607,"- Meet with your current manager to discuss the internal opportunity you'd like to pursue prior to submitting your application.
+- Ensure you have met your department specific eligibility requirements:
+  - Guidelines for performance eligibility:
+    - Team members who are assessed at a Performing or Exceeding Performance level during Talent Assessment are eligible to be considered for another role
+    - Team members whose Performance is assessed as Developing or are actively undergoing written performance management, may not be eligible. These situations require manager and/or PBP approval to proceed."
+Q051,"What eligibility requirements must an internal employee satisfy before applying for another role, and who verifies those requirements?",multi_hop,HybridRRFRetriever,0.2703855037689209,4,0.015625,hybrid_rrf,..\data\corpus\people-group\visas.md,,9378,people-group,636,"- At the time of applying for permit renewal, the application must satisfy various criteria including an age-dependent [minimum salary requirement](https://ind.nl/en/required-amounts-income-requirements) (with a step at age 30, also see this [handy table](https://ind.nl/en/required-amounts-income-requirements#application-to-work-as-a-highly-skilled-migrant-and-for-the-european-blue-card)). This requirement should be taken into consideration when issuing a new contract, since the contract can be made valid for just a year or for an indefinite period; thus triggering more or less frequent re-applications for work permit extensions"
+Q051,"What eligibility requirements must an internal employee satisfy before applying for another role, and who verifies those requirements?",multi_hop,HybridRRFRetriever,0.2703855037689209,5,0.015384615384615385,hybrid_rrf,..\data\corpus\hiring\talent-acquisition-framework\internal-hiring-process.md,,7057,talent-acquisition-framework,653,"- People Connect will handle all eligibility checks for team members applying for an internal opportunity.
+  - For eligibility checks for candidates on the People Connect team please reach out directly to the Manager of the People Connect team.
+- Engage People Connect by submitting a request via [HelpLab](https://helplab.gitlab.systems/esc?id=emp_taxonomy_topic&topic_id=2e8c3f81478c069067429ee0026d4380). People Connect will notify the Recruiter that the eligibility check is completed by replying to the request submitted via HelpLab. Ensure you have met your department specific eligibility requirements:
+  - Guidelines for performance eligibility:"
+Q052,How does the internal hiring process differ from the external candidate hiring process?,multi_hop,HybridRRFRetriever,0.21973133087158203,1,0.01639344262295082,hybrid_rrf,..\data\corpus\people-group\promotions-transfers.md,,8653,people-group,601,"The only exception to this process is when there is an open budgeted and publicly advertised vacancy for a Director or above level role that an internal team member interviews for and is offered. If external candidates have been considered and interviewed, and the internal candidate earns the role through a standard hiring process (screening, full interview process) then the recruiter may make an offer to the candidate as soon as the offer is approved. There should be no difference in the timing or process of making and accepting an offer for open roles between internal and external candidates."
+Q052,How does the internal hiring process differ from the external candidate hiring process?,multi_hop,HybridRRFRetriever,0.21973133087158203,2,0.016129032258064516,hybrid_rrf,..\data\corpus\hiring\talent-acquisition-framework\internal-hiring-process.md,,7035,talent-acquisition-framework,103,"---
+title: ""Internal Hiring Process""
+description: ""This page discusses the Internal Hiring Process""
+---"
+Q052,How does the internal hiring process differ from the external candidate hiring process?,multi_hop,HybridRRFRetriever,0.21973133087158203,3,0.015873015873015872,hybrid_rrf,..\data\corpus\people-group\promotions-transfers.md,,8591,people-group,574,"### Internal Mobility
+
+Internal mobility is the process by which team members move into open positions at GitLab. When a position is open and posted on the career site via Greenhouse, and then filled by a current GitLab team member, it is classified as 'internal mobility'. Similar to filling a role with an external candidate, internal team member candidates will also follow the same Greenhouse hiring steps and experience a full interview process to enable an informed hiring decision. All open positions should be posted to allow for equal opportunity for consideration."
+Q052,How does the internal hiring process differ from the external candidate hiring process?,multi_hop,HybridRRFRetriever,0.21973133087158203,4,0.015625,hybrid_rrf,..\data\corpus\people-group\contracts-probation-periods.md,,7371,people-group,74,#### Steps as a current candidate (actively engaged in the hiring process)
+Q052,How does the internal hiring process differ from the external candidate hiring process?,multi_hop,HybridRRFRetriever,0.21973133087158203,5,0.015384615384615385,hybrid_rrf,..\data\corpus\communication\chat.md,,470,communication,543,"| `#talent-acquisition`                | For questions about [referrals](/handbook/hiring/referral-process/), the [hiring process](/handbook/hiring/), and/or candidate status.                                                                                               |
+| `#team-member-updates`               | To stay updated on transitions/promotions, new GitLab team members joining, work anniversaries, etc.                                                                                                                                 |"
+Q053,"What responsibilities do the recruiter, People Connect team, and hiring manager each have before an internal offer is made?",multi_hop,HybridRRFRetriever,0.30403923988342285,1,0.01639344262295082,hybrid_rrf,..\data\corpus\people-group\promotions-transfers.md,,8780,people-group,604,"- Before the offer is made the recruiter will confirm with the team member and the gaining manager that they have indeed reached out to the current manager. They will discuss the new opportunity and that an offer will be made to the team member.
+- Talent Acquisition team will ensure that, if applicable, the position has been posted for at least three business days before an offer is made.
+- [Compensation](/handbook/total-rewards/compensation/) and [equity](/handbook/total-rewards/stock-options/#equity-incentive-plans) may be reviewed during the hiring process to reflect the new level and position."
+Q053,"What responsibilities do the recruiter, People Connect team, and hiring manager each have before an internal offer is made?",multi_hop,HybridRRFRetriever,0.30403923988342285,2,0.016129032258064516,hybrid_rrf,..\data\corpus\hiring\talent-acquisition-framework\internal-hiring-process.md,,7063,talent-acquisition-framework,501,"- Hiring Managers will be notified by Recruiter when an internal team member has applied and has completed the necessary eligibility checks as mentioned above, and they will follow the process outlined in the [Talent Acquisition Process Framework](/handbook/hiring/) for all candidates.
+- If a team member moves to offer, the Recruiter will connect the Hiring Manager with the team member's current manager. Please follow the steps outlined by the Recruiter in their message via Slack (details above)."
+Q053,"What responsibilities do the recruiter, People Connect team, and hiring manager each have before an internal offer is made?",multi_hop,HybridRRFRetriever,0.30403923988342285,3,0.015873015873015872,hybrid_rrf,..\data\corpus\hiring\talent-acquisition-framework\internal-hiring-process.md,,7060,talent-acquisition-framework,290,"- People Connect checks Workday for current team member base compensation.
+  - People Connect will then provide annual base compensation details in the HelpLab request. The Recruiter can then utilize this information while putting an offer together (in partnership with the hiring manager)."
+Q053,"What responsibilities do the recruiter, People Connect team, and hiring manager each have before an internal offer is made?",multi_hop,HybridRRFRetriever,0.30403923988342285,4,0.015625,hybrid_rrf,..\data\corpus\hiring\talent-acquisition-framework\internal-hiring-process.md,,7064,talent-acquisition-framework,515,"- Hiring Manager will be provided the candidates compensation expectations from the Recruiter. It is up to the Hiring Manager, in partnership with the Recruiter, to propose a compensation aligned with budget, candidate expectations, and internal pay equality.
+- If internal candidates need to be declined post interviews, it is required that the hiring manager connect with the team member via Zoom to inform them of the decision and provide constructive feedback (an outline providing feedback can be found below)."
+Q053,"What responsibilities do the recruiter, People Connect team, and hiring manager each have before an internal offer is made?",multi_hop,HybridRRFRetriever,0.30403923988342285,5,0.015384615384615385,hybrid_rrf,..\data\corpus\hiring\talent-acquisition-framework\internal-hiring-process.md,,7047,talent-acquisition-framework,560,"- Once it is confirmed that the internal candidate is moving to the offer stage, the Recruiter will connect the team member's current manager and potential new manager via Slack to:
+  - Give formal notice that an offer is being created for the team member.
+  - At the same time you should tag the relevant [People Business Partner](/handbook/people-group/people-business-partners/#people-business-partner-alignments) (both the departing and receiving PBP) in a note on Greenhouse so they are notified, can track the internal move and take any necessary action."
+Q054,"If an internal candidate is selected for a new role, how is the transition between their current and new manager coordinated?",multi_hop,HybridRRFRetriever,0.32909607887268066,1,0.01639344262295082,hybrid_rrf,..\data\corpus\hiring\talent-acquisition-framework\internal-hiring-process.md,,7062,talent-acquisition-framework,378,"- Once the transition date is agreed upon, the current manager is responsible for notifying their leadership and to follow the steps outlined in the [Backfill Approval process](/handbook/hiring/) handbook page
+- If the team member is not selected for the new role, the current manager should meet with the team member to discuss ongoing career development in their current role."
+Q054,"If an internal candidate is selected for a new role, how is the transition between their current and new manager coordinated?",multi_hop,HybridRRFRetriever,0.32909607887268066,2,0.016129032258064516,hybrid_rrf,..\data\corpus\hiring\talent-acquisition-framework\internal-hiring-process.md,,7048,talent-acquisition-framework,649,"- Facilitate a discussion around a transition date that works for both parties. Please note that TA's involvement is to facilitate this conversation and is not the decision maker. Ultimately, a transition date is something that should be agreed upon between a current manager and hiring manager. A finalized start date will be needed as TA submits an offer for approvals.
+  - Some suggestions for transition timelines include:
+    - Aiming for between 4-6 weeks for an official transition date to ensure the team with the backfill has lead time on filling the position
+    - A one month 50/50 split between teams to ease into a full time transition."
+Q054,"If an internal candidate is selected for a new role, how is the transition between their current and new manager coordinated?",multi_hop,HybridRRFRetriever,0.32909607887268066,3,0.015873015873015872,hybrid_rrf,..\data\corpus\people-group\promotions-transfers.md,,8782,people-group,628,"- The Recruiter and Hiring Manager will review the offer details with the internal candidate and a [Job Change Letter](/handbook/people-group/promotions-transfers/#job-change-letter) will be sent out by the Total Rewards team following the hiring process
+- If the team member is transferred, the new manager will announce in the `#team-member-updates` Slack Channel and begin any additional onboarding or offboarding necessary. Before the new manager makes the transfer announcement they must confirm with the team members current manager that the current team has been informed about the team members new position and transfer."
+Q054,"If an internal candidate is selected for a new role, how is the transition between their current and new manager coordinated?",multi_hop,HybridRRFRetriever,0.32909607887268066,4,0.015625,hybrid_rrf,..\data\corpus\people-group\promotions-transfers.md,,8781,people-group,632,"- If after interviews, the manager and the GitLab team member want to proceed with the transfer, internal references should be checked. While a manager cannot block a transfer, there is often good feedback that can help inform the decision. It is advised that the GitLab team member talk to their manager to explain their preference for the new team and to understand the feedback that will be given to the new manager. It should also be noted, that performance requirements are not always equal across roles, so if a GitLab team member struggles in one role, those weakness may not be as pronounced in the new role, and vice versa."
+Q054,"If an internal candidate is selected for a new role, how is the transition between their current and new manager coordinated?",multi_hop,HybridRRFRetriever,0.32909607887268066,5,0.015384615384615385,hybrid_rrf,..\data\corpus\people-group\talent-assessment.md,,9116,people-group,367,"This would be a great opportunity to ensure a formal transition and knowledge of performance and feedback takes place between previous manager and new manager. Please enter a HelpLab request if you have any questions about your specific scenario.
+
+**My team member does not agree with their placement in performance and growth potential. How should I approach this?**"
+Q055,"What happens if an internal candidate's compensation exceeds the salary range for the new role, and who is responsible for communicating this?",multi_hop,HybridRRFRetriever,0.3762481212615967,1,0.01639344262295082,hybrid_rrf,..\data\corpus\people-group\relocation.md,,8915,people-group,464,".  If the team member currently resides in a location with a location factor of .80 and the move results in landing in a location with a location factor of .70, the compensation recommendation will be to decrease the salary to position the team member's salary in an equal position in the new range. If the compensation range of the team member's role isn't available, the People Operations Team member reaches out to Total Rewards to discuss the new compensation."
+Q055,"What happens if an internal candidate's compensation exceeds the salary range for the new role, and who is responsible for communicating this?",multi_hop,HybridRRFRetriever,0.3762481212615967,2,0.016129032258064516,hybrid_rrf,..\data\corpus\hiring\talent-acquisition-framework\internal-hiring-process.md,,7046,talent-acquisition-framework,564,"- If a team member's current compensation exceeds the budget and/or salary range for the role (due to level or different job family), the recruiter will inform the team member of a potential change to their compensation before completing any team interviews.  
+- Recruiter will then continue the process as described in the [Talent Acquisition Process Framework](/handbook/hiring/) for all candidates. Recruiter will use identified templates in Greenhouse to communicate with candidates, current managers and hiring managers throughout the internal hiring process."
+Q055,"What happens if an internal candidate's compensation exceeds the salary range for the new role, and who is responsible for communicating this?",multi_hop,HybridRRFRetriever,0.3762481212615967,3,0.015873015873015872,hybrid_rrf,..\data\corpus\total-rewards\compensation\_index.md,,18640,compensation,502,"## When Compensation is Determined
+
+Compensation decisions happen at specific points throughout the year, each serving a different purpose in managing total rewards.
+
+### Time of Hire
+
+A team member’s initial compensation package is determined when they join GitLab. This includes base salary (or OTE for sales roles), equity grant, and applicable benefits.
+
+The offer is based on:
+
+- The market range for the role and level
+- The location of the role
+- Experience and skills as they relate to the role"
+Q055,"What happens if an internal candidate's compensation exceeds the salary range for the new role, and who is responsible for communicating this?",multi_hop,HybridRRFRetriever,0.3762481212615967,4,0.015625,hybrid_rrf,..\data\corpus\people-group\relocation.md,,8914,people-group,461,"- If the country and/or the location factor changes, the compensation will be adjusted based on the location factor change.  For example, if a team member currently resides in a location with a location factor of .70 and the move results in the team member landing in a location with a location factor of .75, the compensation recommendation will be to increase the salary to position the team member's salary to an equal position in the new range (compa-ratio)"
+Q055,"What happens if an internal candidate's compensation exceeds the salary range for the new role, and who is responsible for communicating this?",multi_hop,HybridRRFRetriever,0.3762481212615967,5,0.015384615384615385,hybrid_rrf,..\data\corpus\hiring\talent-acquisition-framework\internal-hiring-process.md,,7045,talent-acquisition-framework,572,"- Once the Recruiter has confirmed the eligibility status via HelpLab (and the team member is confirmed eligible) the Recruiter will reach out to the team member to introduce themselves and set expectations around the internal hiring process. This includes ensuring they have notified their current manager.
+- If a team member is not eligible, the Recruiter will send the appropriate decline email template.
+- The recruiter will also review the team member’s current compensation (found in Workday) to ensure they are in line with the salary range and budget for the role."
+Q056,How should interviewers prepare their calendars and ModernLoop settings to reduce interview scheduling issues?,single_hop,HybridRRFRetriever,0.23986577987670898,1,0.01639344262295082,hybrid_rrf,..\data\corpus\hiring\talent-acquisition-framework\coordinator.md,,6800,talent-acquisition-framework,348,"- CES should proceed directly to scheduling the calls without waiting for candidate availability submission.
+- Access the Google Calendar to view both the interviewer's and internal team member's calendars in tandem.
+- Once a suitable time slot has been identified, schedule the interview and send the internal candidate confirmation in ModernLoop."
+Q056,How should interviewers prepare their calendars and ModernLoop settings to reduce interview scheduling issues?,single_hop,HybridRRFRetriever,0.23986577987670898,2,0.016129032258064516,hybrid_rrf,..\data\corpus\hiring\talent-acquisition-framework\coordinator.md,,6797,talent-acquisition-framework,645,"- To select a schedule option click on 'use schedule'on the top right corner of the option card.
+- The location will be automatically selected as Zoom and a zoom room selected. Please check with the CES team to understand which Zoom room to use. Each CES member is assigned a particular zoom room to use when scheduling to avoid overbooking a room.
+- The calenders section when scheduling in ModernLoop refer to the internal calendars that will populate once an interview is scheduled. The are 'Candidate Interview Calendar' for candidate events and 'Interview calendar' for Internal events. These calendars should auto-populate in this section."
+Q056,How should interviewers prepare their calendars and ModernLoop settings to reduce interview scheduling issues?,single_hop,HybridRRFRetriever,0.23986577987670898,3,0.015873015873015872,hybrid_rrf,..\data\corpus\hiring\talent-acquisition-framework\coordinator.md,,6794,talent-acquisition-framework,542,"1. **Interviewer Communication & Confirmation**
+
+- After scheduling, CES will DM interviewers about the accommodation (both Level 1 & 2 if supported) and ensure they have the necessary support to conduct a successful interview.
+
+Note: CES will maintain internal tracking of all interviewer communications and confirmations for accountability and follow-up purposes. The tracking sheet is linked in the CES team repo for reference.
+
+#### ModernLoop
+
+ModernLoop is the scheduling tool that the Candidate Experience Team uses to book
+interviews."
+Q056,How should interviewers prepare their calendars and ModernLoop settings to reduce interview scheduling issues?,single_hop,HybridRRFRetriever,0.23986577987670898,4,0.015625,hybrid_rrf,..\data\corpus\hiring\talent-acquisition-framework\coordinator.md,,6782,talent-acquisition-framework,592,"#### Executive Interview Scheduling
+
+The process below outlines the steps to be followed by the CES team in scheduling executive interviews while partnering with the Executive Business Administrator(EBA) team and executive recruiters. The Candidate Experience team and EBA team will adhere to a 24 hour working day SLA response time for scheduling interviews. Interview requests coming from Executive recruiters are to be scheduled in the executive calendar only.
+
+1. The recruiter will create a scheduling task in ModernLoop and which will populate into the CES ""My Tasks"" list in ModernLoop"
+Q056,How should interviewers prepare their calendars and ModernLoop settings to reduce interview scheduling issues?,single_hop,HybridRRFRetriever,0.23986577987670898,5,0.015384615384615385,hybrid_rrf,..\data\corpus\hiring\interviewing\_index.md,,6607,interviewing,663,"## ModernLoop
+
+ModernLoop is the scheduling tool that the Candidate Experience Team uses to book interviews. Modern Loop is integrated with Greenhouse, Google Workspace, Zoom and Slack.
+
+**Logging in to ModernLoop**
+
+To log in, go to the ModernLoop Okta tile and log in with SSO.
+
+**Set your ModernLoop preferences**
+
+Within ModernLoop interviewers can set the following:
+
+Once you log in to the platform, navigate to ""your account"" and select ""Go to Interviewer Portal"".  We encourage you to upload a photo, create a bio and set your interviewer preferences so we can provide a great candidate experience.
+
+You can also use this function to update the following:"
+Q057,What are the recommended steps if an interviewer must decline an interview at short notice?,single_hop,HybridRRFRetriever,0.25420236587524414,1,0.01639344262295082,hybrid_rrf,..\data\corpus\hiring\talent-acquisition-framework\coordinator.md,,6801,talent-acquisition-framework,533,"## How to add or replace an interviewer for a scheduled interview
+
+- If you wish to replace or add an extra interviewer to a scheduled interview, in 'My tasks' go to scheduled, click on the scheduled interview.  
+- When the side page opens with the interview details, click on the 3 dots on the interview tile and select 'Edit Interview'.  
+- To add an interviewer select 'add interviewer' and type in the name of the new interviewer.
+- To remove an interviewer select the three dots next to their name and select remove interviewer."
+Q057,What are the recommended steps if an interviewer must decline an interview at short notice?,single_hop,HybridRRFRetriever,0.25420236587524414,2,0.016129032258064516,hybrid_rrf,..\data\corpus\hiring\interviewing\_index.md,,6606,interviewing,686,"- Declining the calendar invite allows our automated system to pick up the request, triage accordingly and bring it to the notice of the respective CES. All declined interviews will be considered urgent and CES will be prioritizing it accordingly.
+- If you need to decline an interview within 48 hours of the scheduled time and  you are able to provide CES a replacement interviewer, that would be preferred.
+- **Special Note:** Please do not add anyone else to your interview. If you need to swap with another interviewer or you would like to add a shadow, please tag @ces in your respective hiring channel or email ces@gitlab.com and we will happily make the adjustment to the invite."
+Q057,What are the recommended steps if an interviewer must decline an interview at short notice?,single_hop,HybridRRFRetriever,0.25420236587524414,3,0.015873015873015872,hybrid_rrf,..\data\corpus\hiring\talent-acquisition-framework\coordinator.md,,6805,talent-acquisition-framework,678,"- If the technical interview requires a interviewer module, check in the job interview plan that the correct interviewer module is selected.  
+- Continue to schedule the interview using the same steps as for a 1:1 interview.
+- For the candidate email select the template 'Technical Interview - Candidate confirmation' and add in the technical instructions using the correct text expander snippet.
+- For interviews which have an MR, select the 'Technical Interview with MR' for internal invites for interviewers.
+- If there is a shadow interviewer from a Module, ModernLoop will automatically add in a paragraph to let the interviewers know who is the lead and who is the shadow."
+Q057,What are the recommended steps if an interviewer must decline an interview at short notice?,single_hop,HybridRRFRetriever,0.25420236587524414,4,0.015625,hybrid_rrf,..\data\corpus\hiring\talent-acquisition-framework\coordinator.md,,6777,talent-acquisition-framework,630,"**Important to Note:**
+
+- These interviews are 90 minutes in duration
+- Candidates must submit a GitLab username *before* CES can schedule their interview
+- Interviewers and candidates need time to prepare prior to the interview, therefore interviews will be scheduled 3.5-4  business days out as the merge request will be sent by the interviewer 3 working days (or 72 hours) before the interview.
+- Interviewers must be the same job level or above to the candidate.  An interviewer can not interview a candidate for a higher job level than theirs.
+
+To schedule a technical interview, CES should follow the process outlined below:"
+Q057,What are the recommended steps if an interviewer must decline an interview at short notice?,single_hop,HybridRRFRetriever,0.25420236587524414,5,0.015384615384615385,hybrid_rrf,..\data\corpus\hiring\conducting-a-gitlab-interview.md,,6590,hiring,686,"If you are shadowing an interview, part of this process should be taking notes and writing feedback in addition to the interviewer. Take notes using the scorecard just like you would if you were leading, but do not submit the scorecard because you are still considered to be in training during this period. As an interview training best practice, we recommend that a debrief meeting occur between the interviewer and shadow trainee after the interview to compare feedback notes (ideally in a sync meeting). Only one official scorecard should be submitted by the main interviewer. Even if you receive multiple prompts and reminders from Greenhouse as a shadow interviewer, please ignore."
+Q058,How are panel interviews designed to improve both candidate experience and interviewer effectiveness?,multi_hop,HybridRRFRetriever,0.2301626205444336,1,0.01639344262295082,hybrid_rrf,..\data\corpus\hiring\interviewing\panel.md,,6661,interviewing,664,"## Panel Interviews {#panel-interviews}
+
+When a candidate gets the opportunity to interview with more than one member of
+the hiring team at once, this is called a *panel* interview (as they speak with
+a panel of interviewers). For candidates, this can be a benefit as they get to
+meet with more members of the team in a shorter time frame, which means they
+spend less time scheduling and attending interviews. For interviewers, this
+means that they get to work together to learn more about a candidate and can
+benefit from each other's viewpoints and experience.
+
+In order to maximize the effectiveness of our panel interviews, we observe the
+following guidelines:"
+Q058,How are panel interviews designed to improve both candidate experience and interviewer effectiveness?,multi_hop,HybridRRFRetriever,0.2301626205444336,2,0.016129032258064516,hybrid_rrf,..\data\corpus\hiring\interviewing\panel.md,,6662,interviewing,643,"1. **Panel interviews are best done by video call.** In-person panel interviews
+   can be intimidating because you sit across from a group of people. Video
+   calls are easier to keep conversational.
+1. **Start with an explanation and introductions.** Walk the candidate through
+   the interview, roughly how long each stage will take. Introduce yourselves
+   briefly, then ask the candidate to do the same.
+1. **No difficult or ""trick"" questions.** Panel interviews are conversations,
+   not tests. If the candidate needs to prepare for the interview or will be put
+   on the spot with a question designed to test their knowledge, they should"
+Q058,How are panel interviews designed to improve both candidate experience and interviewer effectiveness?,multi_hop,HybridRRFRetriever,0.2301626205444336,3,0.015873015873015872,hybrid_rrf,..\data\corpus\hiring\talent-acquisition-framework\coordinator.md,,6794,talent-acquisition-framework,542,"1. **Interviewer Communication & Confirmation**
+
+- After scheduling, CES will DM interviewers about the accommodation (both Level 1 & 2 if supported) and ensure they have the necessary support to conduct a successful interview.
+
+Note: CES will maintain internal tracking of all interviewer communications and confirmations for accountability and follow-up purposes. The tracking sheet is linked in the CES team repo for reference.
+
+#### ModernLoop
+
+ModernLoop is the scheduling tool that the Candidate Experience Team uses to book
+interviews."
+Q058,How are panel interviews designed to improve both candidate experience and interviewer effectiveness?,multi_hop,HybridRRFRetriever,0.2301626205444336,4,0.015625,hybrid_rrf,..\data\corpus\hiring\interviewing\_index.md,,6599,interviewing,588,"As an interviewer, you play a significant part in creating a seamless, candidate-centered experience for all applicants here at GitLab. Keeping an up-to-date calendar and setting up your specific interviewer preferences is essential to help reduce interview cancellations or declines and the need for rescheduling. This page will provide links and examples on how to adjust your calendar and interviewer preferences as well. We urge you to visit this Handbook page for a deeper understanding of how GitLab candidates are moved through the interview process. DRI: Candidate Experience Team"
+Q058,How are panel interviews designed to improve both candidate experience and interviewer effectiveness?,multi_hop,HybridRRFRetriever,0.2301626205444336,5,0.015384615384615385,hybrid_rrf,..\data\corpus\hiring\interviewing\_index.md,,6607,interviewing,663,"## ModernLoop
+
+ModernLoop is the scheduling tool that the Candidate Experience Team uses to book interviews. Modern Loop is integrated with Greenhouse, Google Workspace, Zoom and Slack.
+
+**Logging in to ModernLoop**
+
+To log in, go to the ModernLoop Okta tile and log in with SSO.
+
+**Set your ModernLoop preferences**
+
+Within ModernLoop interviewers can set the following:
+
+Once you log in to the platform, navigate to ""your account"" and select ""Go to Interviewer Portal"".  We encourage you to upload a photo, create a bio and set your interviewer preferences so we can provide a great candidate experience.
+
+You can also use this function to update the following:"
+Q059,"What preparation is expected from candidates before a technical interview, and how is AI permitted during the interview?",multi_hop,HybridRRFRetriever,0.31540608406066895,1,0.01639344262295082,hybrid_rrf,..\data\corpus\hiring\interviewing\infrastructure-interview.md,,6646,interviewing,411,"### 3. 90-Minute Technical Interview with a member of the Infrastructure team
+
+Successful candidates will be moved to the next step: Technical Interview. The Technical Interview varies depending on the team and position that you are applying for. We will share more information about what to expect and what to prepare ahead of this round if required. If there is prep work, it will be limited to about an hour."
+Q059,"What preparation is expected from candidates before a technical interview, and how is AI permitted during the interview?",multi_hop,HybridRRFRetriever,0.31540608406066895,2,0.016129032258064516,hybrid_rrf,..\data\corpus\hiring\talent-acquisition-framework\coordinator.md,,6777,talent-acquisition-framework,630,"**Important to Note:**
+
+- These interviews are 90 minutes in duration
+- Candidates must submit a GitLab username *before* CES can schedule their interview
+- Interviewers and candidates need time to prepare prior to the interview, therefore interviews will be scheduled 3.5-4  business days out as the merge request will be sent by the interviewer 3 working days (or 72 hours) before the interview.
+- Interviewers must be the same job level or above to the candidate.  An interviewer can not interview a candidate for a higher job level than theirs.
+
+To schedule a technical interview, CES should follow the process outlined below:"
+Q059,"What preparation is expected from candidates before a technical interview, and how is AI permitted during the interview?",multi_hop,HybridRRFRetriever,0.31540608406066895,3,0.015873015873015872,hybrid_rrf,..\data\corpus\hiring\conducting-a-gitlab-interview.md,,6570,hiring,608,"All interviews following a recruiter screen should take place on camera for both the candidate and interviewer. If the candidate is unable to use their camera because of technical issues, please indicate this in your interview notes. Seeing candidates on camera helps identify challenging interview situations, such as AI Deepfake avatars and multiple users interviewing as one candidate. If you have concerns about filters and odd behavior during an interview, please take a screenshot to send to the recruiter for reference who will then compare to other sources, such as LinkedIn or their recruiter screen"
+Q059,"What preparation is expected from candidates before a technical interview, and how is AI permitted during the interview?",multi_hop,HybridRRFRetriever,0.31540608406066895,4,0.015625,hybrid_rrf,..\data\corpus\company\working-groups\ai-native-hiring.md,,3698,working-groups,676,"- [ ] A revised interview rubric is published that maps evaluation criteria to AI-era engineering skills.
+- [ ] Interview guides for both proposed interview parts (greenfield design and codebase navigation) are complete, reviewed, and published.
+- [ ] An async MR-based assessment component has been designed and integrated into the proposed process.
+- [ ] A playbook for provisioning temporary Duo access to candidates is documented and validated with the Duo team.
+- [ ] At least 3 pilot interviews have been conducted using the new process.
+- [ ] A retrospective on the pilots has been completed, with quantitative and qualitative feedback from interviewers and candidates."
+Q059,"What preparation is expected from candidates before a technical interview, and how is AI permitted during the interview?",multi_hop,HybridRRFRetriever,0.31540608406066895,5,0.015384615384615385,hybrid_rrf,..\data\corpus\hiring\talent-acquisition-framework\coordinator.md,,6805,talent-acquisition-framework,678,"- If the technical interview requires a interviewer module, check in the job interview plan that the correct interviewer module is selected.  
+- Continue to schedule the interview using the same steps as for a 1:1 interview.
+- For the candidate email select the template 'Technical Interview - Candidate confirmation' and add in the technical instructions using the correct text expander snippet.
+- For interviews which have an MR, select the 'Technical Interview with MR' for internal invites for interviewers.
+- If there is a shadow interviewer from a Module, ModernLoop will automatically add in a paragraph to let the interviewers know who is the lead and who is the shadow."
+Q060,How does GitLab ensure fairness and inclusivity throughout its interview process?,multi_hop,HybridRRFRetriever,0.19395661354064941,1,0.01639344262295082,hybrid_rrf,..\data\corpus\hiring\conducting-a-gitlab-interview.md,,6574,hiring,441,"## Competencies
+
+As mentioned, 80-85% of the interview should be for you to ask relevant job-related questions. Behavioral and situational interview questions are designed to assess a candidate's past experiences and potential future actions through real-world examples and hypothetical scenarios.
+
+Remember that good interviews are consistent for everyone to ensure an objective and unbiased assessment of candidates throughout the process."
+Q060,How does GitLab ensure fairness and inclusivity throughout its interview process?,multi_hop,HybridRRFRetriever,0.19395661354064941,2,0.016129032258064516,hybrid_rrf,..\data\corpus\company\esg.md,,2744,company,653,"- **Do Good** – Throughout the year, the DIB and ESG teams collaborate to give back to the communities we serve by offering volunteer opportunities to team members, working with TMRGs to donate funds to relevant nonprofits, and providing in-kind donations to DIB related nonprofits through the [GitLab for Nonprofits](https://about.gitlab.com/solutions/nonprofit/) program.
+
+##### Building Inclusivity Into All We Do
+
+When we think about DIB, it’s easy to see it only from a team member perspective. Our goal is to bring inclusivity into as many touch points as possible — from our open source contributors to how we engage with our customers and users."
+Q060,How does GitLab ensure fairness and inclusivity throughout its interview process?,multi_hop,HybridRRFRetriever,0.19395661354064941,3,0.015873015873015872,hybrid_rrf,..\data\corpus\hiring\conducting-a-gitlab-interview.md,,6589,hiring,533,"**Shadowing Interviews**
+
+While it is possible to shadow interviews as a trained, regular interviewer to maintain your skillset, please be considerate of those who are actively working to become an interviewer and allow them priority in choosing when to shadow.
+
+Just like those leading an interview, shadowers should ensure that they are not shadowing someone who they have referred to GitLab. This helps to remove bias from the interview process and does not allow specific candidates disproportionate access to interview feedback."
+Q060,How does GitLab ensure fairness and inclusivity throughout its interview process?,multi_hop,HybridRRFRetriever,0.19395661354064941,4,0.015625,hybrid_rrf,..\data\corpus\security\security-assurance\governance\_index.md,,16352,governance,540,"## <i class=""fas fa-bullseye"" style=""color:rgb(110,73,203)"" aria-hidden=""true""></i> Mission
+
+The 'G' in [GRC](https://www.oceg.org/ideas/what-is-grc/), GitLab's security governance discipline helps to define, train and measure security strategies and progress towards security objectives by creating a set of processes and practices that run across departments and functions. By following a Governance framework, GitLab ensures accountability, fairness and transparency in how the company runs and how it communicates with its stakeholders."
+Q060,How does GitLab ensure fairness and inclusivity throughout its interview process?,multi_hop,HybridRRFRetriever,0.19395661354064941,5,0.015384615384615385,hybrid_rrf,..\data\corpus\people-group\talent-assessment.md,,9034,people-group,354,"### Calibration Session
+
+The calibration session is one of the most important pieces of the Performance/Growth Potential Matrix process, as it provides time for managers, their peers, and their manager to calibrate. Below are a few communication guidelines to ensure efficiency and fairness during the calibration session discussion.
+
+#### Best Practices"
+Q061,"What interview stages are common across Infrastructure and Customer Support hiring, and how do the technical interview expectations differ?",multi_hop,HybridRRFRetriever,0.30211567878723145,1,0.01639344262295082,hybrid_rrf,..\data\corpus\hiring\interviewing\customer-support-interviewing.md,,6611,interviewing,202,"## Tips on how to prepare for your Support Engineer interview
+
+What is it like to interview for the Support Engineer role at GitLab? Here are some tips and general guidelines for the recruitment stages:"
+Q061,"What interview stages are common across Infrastructure and Customer Support hiring, and how do the technical interview expectations differ?",multi_hop,HybridRRFRetriever,0.30211567878723145,2,0.016129032258064516,hybrid_rrf,..\data\corpus\hiring\interviewing\infrastructure-interview.md,,6638,interviewing,209,"## Tips on how to prepare for Infrastructure interviews
+
+What is it like to interview for roles in the Infrastructure department at GitLab? Here are some tips and general guidelines for the recruitment stages:"
+Q061,"What interview stages are common across Infrastructure and Customer Support hiring, and how do the technical interview expectations differ?",multi_hop,HybridRRFRetriever,0.30211567878723145,3,0.015873015873015872,hybrid_rrf,..\data\corpus\hiring\interviewing\infrastructure-interview.md,,6646,interviewing,411,"### 3. 90-Minute Technical Interview with a member of the Infrastructure team
+
+Successful candidates will be moved to the next step: Technical Interview. The Technical Interview varies depending on the team and position that you are applying for. We will share more information about what to expect and what to prepare ahead of this round if required. If there is prep work, it will be limited to about an hour."
+Q061,"What interview stages are common across Infrastructure and Customer Support hiring, and how do the technical interview expectations differ?",multi_hop,HybridRRFRetriever,0.30211567878723145,4,0.015625,hybrid_rrf,..\data\corpus\company\working-groups\ai-native-hiring.md,,3692,working-groups,402,"### Scope
+
+This working group will focus on the **technical interview stages** for Software Engineer roles across all levels. It will not redesign behavioural interviews, hiring manager screens, or offer processes, though recommendations may note implications for those stages. The initial pilot will target Ruby backend roles, with a phased rollout to Go, TypeScript, Python, and Frontend engineering."
+Q061,"What interview stages are common across Infrastructure and Customer Support hiring, and how do the technical interview expectations differ?",multi_hop,HybridRRFRetriever,0.30211567878723145,5,0.015384615384615385,hybrid_rrf,..\data\corpus\hiring\interviewing\technical.md,,6665,interviewing,293,"---
+title: ""Technical Interviews""
+---
+
+**Technical Interview Guide**
+
+For some positions, the hiring process includes a technical interview.
+
+This technical interview revolves around a merge request to a small application created for the interview, tailored to the position you've applied for."
+Q062,What technical knowledge should a Support Engineer candidate prepare compared with an Infrastructure Engineer candidate?,comparative_multi_hop,HybridRRFRetriever,0.20957303047180176,1,0.01639344262295082,hybrid_rrf,..\data\corpus\hiring\interviewing\infrastructure-interview.md,,6637,interviewing,593,"---
+title: ""Interviewing at GitLab - Infrastructure""
+description: ""Tips on how to prepare for your interview - Infrastructure""
+---
+
+## Most common open roles in Infrastructure
+
+- [Backend Engineer](/job-description-library/engineering/infrastructure/backend-engineer)
+- [Site Reliability Engineer](/job-description-library/engineering/infrastructure/site-reliability-engineer)
+- [Database Reliability Engineer](/job-description-library/engineering/infrastructure/database-reliability-engineer)
+- [Engineering Manager](/job-description-library/engineering/infrastructure/engineering-management)"
+Q062,What technical knowledge should a Support Engineer candidate prepare compared with an Infrastructure Engineer candidate?,comparative_multi_hop,HybridRRFRetriever,0.20957303047180176,2,0.016129032258064516,hybrid_rrf,..\data\corpus\hiring\interviewing\customer-support-interviewing.md,,6617,interviewing,693,"- [Values](/handbook/values/)
+- [GitLab Company Culture](/handbook/company/culture/)
+- [Informal Communication in an all-remote environment](/handbook/company/culture/all-remote/informal-communication/)
+- [Support Team Handbook](/handbook/support)
+- [Support Engineer Responsibilities](/handbook/support/support-engineer-responsibilities/)
+- [Support Workflows](/handbook/support/workflows)
+- [Support Team Member Time Off](/handbook/support/support-time-off/)
+- [Jobs at GitLab - Frequently Asked Questions](/handbook/hiring/candidate-faq/)
+- [Working for GitLab - A Support Engineer's perspective](https://about.gitlab.com/blog/2020/08/10/working-for-gitlab-a-support-engineers-perspective/)"
+Q062,What technical knowledge should a Support Engineer candidate prepare compared with an Infrastructure Engineer candidate?,comparative_multi_hop,HybridRRFRetriever,0.20957303047180176,3,0.015873015873015872,hybrid_rrf,..\data\corpus\security\internship.md,,13942,security,586,"---
+title: ""Security Internship""
+description: ""The ultimate goal of this program is to transform an entry-level candidate into an Individual Contributor who could meet the requirements for a Security Engineer.""
+---
+
+## Overview
+
+The **Security** internship is the result of [The Engineering Internship Pilot Program](/handbook/hiring/) that started at the end of 2019. The ultimate goal of this program is to transform an entry-level candidate into an Individual Contributor who could meet the requirements for a [Security Engineer](/job-description-library/security/security-engineer)."
+Q062,What technical knowledge should a Support Engineer candidate prepare compared with an Infrastructure Engineer candidate?,comparative_multi_hop,HybridRRFRetriever,0.20957303047180176,4,0.015625,hybrid_rrf,..\data\corpus\hiring\interviewing\panel.md,,6662,interviewing,643,"1. **Panel interviews are best done by video call.** In-person panel interviews
+   can be intimidating because you sit across from a group of people. Video
+   calls are easier to keep conversational.
+1. **Start with an explanation and introductions.** Walk the candidate through
+   the interview, roughly how long each stage will take. Introduce yourselves
+   briefly, then ask the candidate to do the same.
+1. **No difficult or ""trick"" questions.** Panel interviews are conversations,
+   not tests. If the candidate needs to prepare for the interview or will be put
+   on the spot with a question designed to test their knowledge, they should"
+Q062,What technical knowledge should a Support Engineer candidate prepare compared with an Infrastructure Engineer candidate?,comparative_multi_hop,HybridRRFRetriever,0.20957303047180176,5,0.015384615384615385,hybrid_rrf,..\data\corpus\hiring\interviewing\customer-support-interviewing.md,,6611,interviewing,202,"## Tips on how to prepare for your Support Engineer interview
+
+What is it like to interview for the Support Engineer role at GitLab? Here are some tips and general guidelines for the recruitment stages:"
+Q063,How does GitLab protect candidate privacy during recruitment while still performing background checks and eligibility verification?,multi_hop,HybridRRFRetriever,0.2515296936035156,1,0.01639344262295082,hybrid_rrf,..\data\corpus\hiring\candidate-faq\recruitment-privacy-policy.md,,6532,candidate-faq,542,"We may collect personal data from other parties as part of the recruitment process. For example:
+
+- Information provided from agencies performing background checks or right to work verifications;
+- Information from public sources and social media sites;
+- Information from recruitment agencies that you have asked to support you in finding a job;
+- Information provided by GitLab team members who have referred you for a job.
+
+#### How does GitLab Use Your Personal Data?
+
+We may collect and use your personal data for the following purposes:"
+Q063,How does GitLab protect candidate privacy during recruitment while still performing background checks and eligibility verification?,multi_hop,HybridRRFRetriever,0.2515296936035156,2,0.016129032258064516,hybrid_rrf,..\data\corpus\hiring\candidate-faq\recruitment-privacy-policy.md,,6530,candidate-faq,422,"---
+title: ""Recruitment Privacy Policy""
+description: ""This Recruitment Privacy Policy describes GitLab Inc. and its affiliates (GitLab) practices for collecting, storing, and processing your personal data as part of the recruitment process.""
+---
+
+
+#### What Personal Data Does GitLab Collect About You?
+
+*Information You Provide Directly*
+
+We may collect the following personal data from you when you apply for a position:"
+Q063,How does GitLab protect candidate privacy during recruitment while still performing background checks and eligibility verification?,multi_hop,HybridRRFRetriever,0.2515296936035156,3,0.015873015873015872,hybrid_rrf,..\data\corpus\hiring\_index.md,,6483,hiring,536,"### Candidate Resources
+
+- [Candidate Handbook Page](/handbook/hiring/candidate-faq/)
+- [Talent Acquisition Privacy Policy](/handbook/hiring/candidate-faq/recruitment-privacy-policy/)
+
+### Interviewer Resources
+
+- [Interviewer Prep Requirements](/handbook/hiring/interviewing/)
+- [Interviewer Training Course](https://levelup.csod.com/samldefault.aspx?ouid=1&returnUrl=%252fDeepLink%252fProcessRedirect.aspx%253fmodule%253dlodetails%2526lo%253d5c9f6b01-8189-418a-bb52-30b2c6d42b96) (*Internal only*)
+- Interviewer Playbook (coming soon)"
+Q063,How does GitLab protect candidate privacy during recruitment while still performing background checks and eligibility verification?,multi_hop,HybridRRFRetriever,0.2515296936035156,4,0.015625,hybrid_rrf,..\data\corpus\hiring\candidate-faq\recruitment-privacy-policy.md,,6535,candidate-faq,636,"- Internally with GitLab team members, contractors, and vendors who require the information to administer and manage the recruitment process or facilitate any accommodation requests;
+- To third-party service providers which process personal data on our behalf to provide certain services, such as background checks and predictive analytics;
+- To third-parties with whom you instruct GitLab to share your personal data;
+- We may share your personal data if we believe it is reasonably necessary to comply with valid legal process (e.g., subpoenas, warrants) or protect the rights, property, or safety, of GitLab, our employees, or users;"
+Q063,How does GitLab protect candidate privacy during recruitment while still performing background checks and eligibility verification?,multi_hop,HybridRRFRetriever,0.2515296936035156,5,0.015384615384615385,hybrid_rrf,..\data\corpus\communication\confidentiality-levels.md,,536,communication,697,"1. Some information is kept confidential by the People Group to protect the privacy, safety, and security of team members and applicants, including: job applications, background check reports, reference checks, compensation, terminations details, demographic information (age and date of birth, family or marital status, national identification such as passport details or tax ID, required accommodations), and home address. Whistleblower identity is likewise confidential. Performance improvement plans, disciplinary actions, and individual feedback are restricted, as they may contain negative feedback and [negative feedback is 1-1](/handbook/values/#collaboration) between you and your manager"
+Q064,"What personal information does GitLab collect during recruitment, and under what circumstances can it be shared?",single_hop,HybridRRFRetriever,0.2490522861480713,1,0.01639344262295082,hybrid_rrf,..\data\corpus\hiring\candidate-faq\recruitment-privacy-policy.md,,6530,candidate-faq,422,"---
+title: ""Recruitment Privacy Policy""
+description: ""This Recruitment Privacy Policy describes GitLab Inc. and its affiliates (GitLab) practices for collecting, storing, and processing your personal data as part of the recruitment process.""
+---
+
+
+#### What Personal Data Does GitLab Collect About You?
+
+*Information You Provide Directly*
+
+We may collect the following personal data from you when you apply for a position:"
+Q064,"What personal information does GitLab collect during recruitment, and under what circumstances can it be shared?",single_hop,HybridRRFRetriever,0.2490522861480713,2,0.016129032258064516,hybrid_rrf,..\data\corpus\hiring\candidate-faq\recruitment-privacy-policy.md,,6532,candidate-faq,542,"We may collect personal data from other parties as part of the recruitment process. For example:
+
+- Information provided from agencies performing background checks or right to work verifications;
+- Information from public sources and social media sites;
+- Information from recruitment agencies that you have asked to support you in finding a job;
+- Information provided by GitLab team members who have referred you for a job.
+
+#### How does GitLab Use Your Personal Data?
+
+We may collect and use your personal data for the following purposes:"
+Q064,"What personal information does GitLab collect during recruitment, and under what circumstances can it be shared?",single_hop,HybridRRFRetriever,0.2490522861480713,3,0.015873015873015872,hybrid_rrf,..\data\corpus\hiring\candidate-faq\recruitment-privacy-policy.md,,6534,candidate-faq,173,"#### When Does GitLab Share Your Data and Who are the Recipients?
+
+As part of the recruitment process, GitLab may disclose your personal data in the following circumstances:"
+Q064,"What personal information does GitLab collect during recruitment, and under what circumstances can it be shared?",single_hop,HybridRRFRetriever,0.2490522861480713,4,0.015625,hybrid_rrf,..\data\corpus\hiring\candidate-faq\recruitment-privacy-policy.md,,6531,candidate-faq,621,"We may collect the following personal data from you when you apply for a position:
+
+- Contact Information such as name, email address, physical address, telephone number;
+- Employment Background Information such as resume/CV, employment history, academic and professional qualifications;
+- Work eligibility and citizenship information;
+- Demographic Information such as gender, race or ethnic origin for government reported statistics when permitted by law or with your consent.
+
+*Information We Collect from Other Parties*
+
+We may collect personal data from other parties as part of the recruitment process. For example:"
+Q064,"What personal information does GitLab collect during recruitment, and under what circumstances can it be shared?",single_hop,HybridRRFRetriever,0.2490522861480713,5,0.015384615384615385,hybrid_rrf,..\data\corpus\hiring\candidate-faq\recruitment-privacy-policy.md,,6533,candidate-faq,613,"We may collect and use your personal data for the following purposes:
+
+- To communicate with you about your job application and potential future job opportunities;
+- To administer, support, and manage the job application process;
+- To facilitate any accommodation requests;
+- Where necessary to comply with applicable legal or regulatory requirements;
+- To evaluate and report the demographic makeup of our company's recruitment efforts where allowed by law; and
+- For other purposes as described to you at the time we collect your personal data.
+
+#### When Does GitLab Share Your Data and Who are the Recipients?"
+Q065,"How does the candidate handbook describe scheduling interviews across multiple time zones, and what responsibilities do candidates have?",multi_hop,HybridRRFRetriever,0.2709670066833496,1,0.01639344262295082,hybrid_rrf,..\data\corpus\hiring\talent-acquisition-framework\coordinator.md,,6774,talent-acquisition-framework,686,"- CES will be using the Zoom integration with ModernLoop for interviews
+  - After the candidate has provided the availability, as an optional step the CES team members can send the Candidate First Touch Email from Greenhouse if there are scheduling challenges.
+- This email is sent to inform the candidates that their interview scheduling is in the process and to ensure better engagement with the candidates.
+- If CES sees an alert to merge applicant profiles, and those profiles are a match (candidates' email address, phone number, or resume matches), they will merge the applicant profiles. Visit [the Candidate Hygiene section of the home page](/handbook/hiring/) for instructions."
+Q065,"How does the candidate handbook describe scheduling interviews across multiple time zones, and what responsibilities do candidates have?",multi_hop,HybridRRFRetriever,0.2709670066833496,2,0.016129032258064516,hybrid_rrf,..\data\corpus\hiring\interviewing\panel.md,,6661,interviewing,664,"## Panel Interviews {#panel-interviews}
+
+When a candidate gets the opportunity to interview with more than one member of
+the hiring team at once, this is called a *panel* interview (as they speak with
+a panel of interviewers). For candidates, this can be a benefit as they get to
+meet with more members of the team in a shorter time frame, which means they
+spend less time scheduling and attending interviews. For interviewers, this
+means that they get to work together to learn more about a candidate and can
+benefit from each other's viewpoints and experience.
+
+In order to maximize the effectiveness of our panel interviews, we observe the
+following guidelines:"
+Q065,"How does the candidate handbook describe scheduling interviews across multiple time zones, and what responsibilities do candidates have?",multi_hop,HybridRRFRetriever,0.2709670066833496,3,0.015873015873015872,hybrid_rrf,..\data\corpus\hiring\talent-acquisition-framework\coordinator.md,,6799,talent-acquisition-framework,638,"- When receiving a scheduling task in ModernLoop from a recruiter for an internal candidate, confirm that the 'internal candidate' tag has been applied to the task.
+- If it is missing, add the ""internal candidate"" tag to the ModernLoop task yourself for tracking purposes.
+- Unlike with external candidates, recruiters do not request availability from internal candidates via email. Instead, they create a scheduling task for CES to arrange interviews directly, without waiting for candidate-submitted availability.
+- The recruiters will inform the candidate that CES will be making use of their GitLab calendar to schedule the interview."
+Q065,"How does the candidate handbook describe scheduling interviews across multiple time zones, and what responsibilities do candidates have?",multi_hop,HybridRRFRetriever,0.2709670066833496,4,0.015625,hybrid_rrf,..\data\corpus\hiring\talent-acquisition-framework\coordinator.md,,6782,talent-acquisition-framework,592,"#### Executive Interview Scheduling
+
+The process below outlines the steps to be followed by the CES team in scheduling executive interviews while partnering with the Executive Business Administrator(EBA) team and executive recruiters. The Candidate Experience team and EBA team will adhere to a 24 hour working day SLA response time for scheduling interviews. Interview requests coming from Executive recruiters are to be scheduled in the executive calendar only.
+
+1. The recruiter will create a scheduling task in ModernLoop and which will populate into the CES ""My Tasks"" list in ModernLoop"
+Q065,"How does the candidate handbook describe scheduling interviews across multiple time zones, and what responsibilities do candidates have?",multi_hop,HybridRRFRetriever,0.2709670066833496,5,0.015384615384615385,hybrid_rrf,..\data\corpus\hiring\candidate-faq\_index.md,,6487,candidate-faq,546,"---
+title: Candidate Handbook Page
+description: ""This page outlines what hiring looks like at GitLab. We share the latest information about our processes and practices to ensure you have the information you need to feel confident during the interview process.""
+---
+
+The GitLab Candidate Handbook is a space for recent applicants and candidates progressing through the interview process. We encourage every prospective job seeker to spend time learning more about the work we do, our culture & values, and what to expect during our hiring process."
+Q066,Which company currently conducts GitLab's pre-employment background screenings?,,HybridRRFRetriever,0.16957402229309082,1,0.01639344262295082,hybrid_rrf,..\data\corpus\people-group\contracts-probation-periods.md,,7341,people-group,552,"GitLab does not currently require subsequent background screenings, or re-screenings, for current team members beyond onboarding/pre-hire requirements. Current team members may opt-in for additional background screenings if requested to work with specific customers.
+
+The Candidate Experience Specialists will [initiate](/handbook/hiring) all background screenings for candidates. The Senior Background Check Specialist will initiate any applicable retroactive background screenings or requested enhanced background screenings for current team members."
+Q066,Which company currently conducts GitLab's pre-employment background screenings?,,HybridRRFRetriever,0.16957402229309082,2,0.016129032258064516,hybrid_rrf,..\data\corpus\hiring\talent-acquisition-framework\coordinator.md,,6810,talent-acquisition-framework,202,"### Background Screenings
+
+GitLab will obtain references and complete a criminal [records check](/handbook/people-group/contracts-probation-periods/#background-screenings) with employment verifications."
+Q066,Which company currently conducts GitLab's pre-employment background screenings?,,HybridRRFRetriever,0.16957402229309082,3,0.015873015873015872,hybrid_rrf,..\data\corpus\people-policies\_index.md,,9508,people-policies,674,"- [Backgound Screenings](/handbook/people-group/contracts-probation-periods/#background-screenings)
+- [Contracts, Background Screenings, Probation Periods, and PIAA](/handbook/people-group/contracts-probation-periods/#piaa-proprietary-information-and-assignment-agreement)
+- [Outside Employment and Activities](/handbook/people-group/contracts-probation-periods/#outside-employment-paid-or-unpaid-projects-and-potentially-conflicting-activities)
+- [Paid Time Off](/handbook/people-group/time-off-and-absence/time-off-types/)
+- [General Benefits](/handbook/total-rewards/benefits/general-and-entity-benefits/)
+- [Leave of Absence](/handbook/people-policies/leave-of-absence/)"
+Q066,Which company currently conducts GitLab's pre-employment background screenings?,,HybridRRFRetriever,0.16957402229309082,4,0.015625,hybrid_rrf,..\data\corpus\people-group\contracts-probation-periods.md,,7349,people-group,670,"Reviews of background screenings are conducted by the Senior Background Check Specialist in accordance with the applicable law of the candidate's jurisdiction. The Senior Background Check Specialist will first review the report for omissions, inaccuracies, and/or discrepancies with employment, including, but not limited to, dates of employment, employer names, and/or positions held. If the report includes discrepancies related to employment, the Senior Background Check Specialist will take the necessary steps to investigate and adjudicate the discrepancies. The Senior Background Check Specialist may escalate the report, as necessary, to the Legal Employment team"
+Q066,Which company currently conducts GitLab's pre-employment background screenings?,,HybridRRFRetriever,0.16957402229309082,5,0.015384615384615385,hybrid_rrf,..\data\corpus\people-group\contracts-probation-periods.md,,7336,people-group,652,"GitLab currently contracts with Sterling Talent Solutions (currently migrating to First Advantage) to provide background screenings. For all candidates being considered for a position at GitLab, an employment history for the last 5 years and/or the three most recent employers will be verified in accordance with applicable local law (if applicable local law limits the review of employment history to fewer years and/or employers, then GitLab follows local law) and screening will be performed against various denied party lists including but not limited to the Office of Foreign Asset Control's Specially Designated Nationals and Blocked Persons List"
+Q067,At what stage of the hiring process are candidates asked to complete their background screening?,single_hop,HybridRRFRetriever,0.23858118057250977,1,0.01639344262295082,hybrid_rrf,..\data\corpus\hiring\job-description-library.md,,6696,hiring,573,"## Hiring Process
+
+Candidates for this position can expect the hiring process to follow the order below. Please keep in mind that candidates can be declined from the position at any stage of the process.
+
+- Qualified candidates will be invited to schedule a 30 minute [screening call]({{</* ref ""interviewing#screening-call"" */>}}) with one of our Global Recruiters.
+- {add a bulleted list of the hiring process steps here}
+
+Additional details about our process can be found on our [hiring page]({{</* ref ""/handbook/hiring"" */>}}).
+
+```
+
+#### Template 1 Additional Details"
+Q067,At what stage of the hiring process are candidates asked to complete their background screening?,single_hop,HybridRRFRetriever,0.23858118057250977,2,0.016129032258064516,hybrid_rrf,..\data\corpus\hiring\job-description-library.md,,6702,hiring,587,"### Career Ladder
+
+{add a brief description of the career ladder here}
+
+### Hiring Process
+
+Candidates for this position can expect the hiring process to follow the order below. Please keep in mind that candidates can be declined from the position at any stage of the process.
+
+- Qualified candidates will be invited to schedule a 30 minute [screening call]({{</* ref ""interviewing#screening-call"" */>}}) with one of our Global Recruiters.
+- {add a bulleted list of the hiring process steps here}
+
+Additional details about our process can be found on our [hiring page](/handbook/hiring)."
+Q067,At what stage of the hiring process are candidates asked to complete their background screening?,single_hop,HybridRRFRetriever,0.23858118057250977,3,0.015873015873015872,hybrid_rrf,..\data\corpus\hiring\job-description-library.md,,6704,hiring,689,"### Hiring Process
+
+Candidates for this position can expect the hiring process to follow the order below. Please keep in mind that candidates can be declined from the position at any stage of the process.
+
+- Qualified candidates will be invited to schedule a 30 minute [screening call]({{</* ref ""interviewing#screening-call"" */>}}) with one of our Global Recruiters.
+- {add a bulleted list of the hiring process steps here}
+
+Additional details about our process can be found on our [hiring page]({{</* ref ""/handbook/hiring"" */>}}).
+```
+
+#### Template 2 Additional Details
+
+- The **Compensation** and **About GitLab** sections will auto-populate because of the job description formatting."
+Q067,At what stage of the hiring process are candidates asked to complete their background screening?,single_hop,HybridRRFRetriever,0.23858118057250977,4,0.015625,hybrid_rrf,..\data\corpus\people-group\contracts-probation-periods.md,,7345,people-group,460,"#### Disclosure and Authorization
+
+Candidates (and, as applicable, current team members) will receive an email to fill out the background screening application. The application will ask for personal and professional information. The application process includes signing disclosure and consent forms which explain the rights of an individual undergoing the background screening. The application process is designed to take less than fifteen minutes to complete."
+Q067,At what stage of the hiring process are candidates asked to complete their background screening?,single_hop,HybridRRFRetriever,0.23858118057250977,5,0.015384615384615385,hybrid_rrf,..\data\corpus\people-group\contracts-probation-periods.md,,7370,people-group,261,". Candidates at a certain stage in the recruiting process will also be asked to disclose outside employment, side projects, or other activities in order for GitLab to determine whether a conflict exists with their ability to perform their obligations to GitLab."
+Q068,Which platform does GitLab use to conduct its annual employee engagement surveys?,single_hop,HybridRRFRetriever,0.19935989379882812,1,0.01639344262295082,hybrid_rrf,..\data\corpus\company\esg.md,,2727,company,591,"**Engagement Surveys**
+
+We conduct a number of [engagement surveys](/handbook/people-group/engagement/) that enable us to capture honest feedback from our team members, understand engagement levels across the organization, and respond to changing needs. By making small iterations and moving quickly, we can get the data needed to evolve engagement programs as needed and align our priorities to the areas team members care about most. Our key survey tools include the annual CultureAmp Engagement survey, Employer Award surveys, and other ad hoc measures like Organizational Health surveys."
+Q068,Which platform does GitLab use to conduct its annual employee engagement surveys?,single_hop,HybridRRFRetriever,0.19935989379882812,2,0.016129032258064516,hybrid_rrf,..\data\corpus\people-group\engagement.md,,7605,people-group,650,"## CultureAmp Engagement Survey Overview
+
+Team Member Engagement is important to the continued success of GitLab making the Engagement Survey an important element within the annual `People Group` calendar. Engagement strategies have been shown to reduce attrition; improve productivity and efficiency; further embed the company values and ultimately enhance role satisfaction.
+
+We partner with [CultureAmp](https://www.cultureamp.com/) to run our Engagement Surveys. CultureAmp provides a platform to gather feedback confidentially, benchmark against external comparables, and uses algorithms to highlight which areas matter most to our team members."
+Q068,Which platform does GitLab use to conduct its annual employee engagement surveys?,single_hop,HybridRRFRetriever,0.19935989379882812,3,0.015873015873015872,hybrid_rrf,..\data\corpus\people-group\engagement.md,,7596,people-group,178,"---
+title: Engagement Surveys and Employer Awards
+description: >-
+  GitLab uses engagement surveys to allow team members to provide feedback and
+  leadership to gain insight.
+---"
+Q068,Which platform does GitLab use to conduct its annual employee engagement surveys?,single_hop,HybridRRFRetriever,0.19935989379882812,4,0.015625,hybrid_rrf,..\data\corpus\people-group\people-ops-tech-analytics\people-analytics\survey-support.md,,8565,people-analytics,656,"---
+title: ""People Analytics Survey Support""
+---
+
+## Employee Surveys
+
+Here at GitLab we use [Culture Amp](https://www.cultureamp.com/?_gl=1*1gyk1qk*_up*MQ..&gclid=CjwKCAiA1-6sBhAoEiwArqlGPjLjIVfOHjS43kmsU2lBnEd0ad2e5nbZ44fmHE7qVcySj2xWbEyFghoCZ-gQAvD_BwE) to conduct our employee sentiment surveys. The People Technology team manages administative access to the tool and information about getting access can be found [here](/handbook/people-group/#using-culture-amp). If you are in need of support for a survey than this page will cover the best way to work with the People Analytics team for survey design, creation in Culture Amp, and review of results."
+Q068,Which platform does GitLab use to conduct its annual employee engagement surveys?,single_hop,HybridRRFRetriever,0.19935989379882812,5,0.015384615384615385,hybrid_rrf,..\data\corpus\people-group\engagement.md,,7598,people-group,640,"- *Employer Award surveys:* we ask team members to complete employer award surveys (i.e. Great Place to Work) to understand how GitLab compares against our talent competitors and to give future candidates insight into what it would look like to work here. The process for selecting and participating in [employer award surveys](/handbook/people-group/employment-branding/) is outlined in the Talent Brand section of the handbook.
+- *Engagement survey:* We partner with CultureAmp to host and run our engagement surveys. We ask all team members to complete this survey at least once a year to understand how engagement is tracking over time."
+Q069,What is the minimum number of direct reports required for a manager to view detailed engagement survey results?,single_hop,HybridRRFRetriever,0.2810237407684326,1,0.01639344262295082,hybrid_rrf,..\data\corpus\people-group\people-ops-tech-analytics\people-analytics\data-guide.md,,8470,people-analytics,610,"| People Managers | Any team members that have direct reports assigned to them in Workday |  |  |
+| [Layers](/handbook/company/structure/#layers) | The number of layers between a team member and the CEO where layer 1 is the CEO |  |  |
+| Direct Reports | The group of team members that report to a people manager |  |  |
+| [Span of Control](/handbook/company/structure/#management-group) | The number of direct reports that are assigned to a people manager |  |  |
+| Average Span of Control | The number of direct reports on average assigned to people managers | # of Direct Reports / # of People Managers |  |"
+Q069,What is the minimum number of direct reports required for a manager to view detailed engagement survey results?,single_hop,HybridRRFRetriever,0.2810237407684326,2,0.016129032258064516,hybrid_rrf,..\data\corpus\people-group\engagement.md,,7608,people-group,606,"### Survey Participation
+
+To make sure we hear from as many team members as possible, the People Group will provide Divisional leaders and People Business Partners with access to participation rates at the Divisional level and to managers with 5 or more direct reports.
+
+We will share with individual managers how close they are to recieving enough responses to view a detailed report noting that managers can only see individualized results for their teams if 5 or more of their direct reports complete the survey. We will not report participation statistics for managers with fewer than 5 direct reports."
+Q069,What is the minimum number of direct reports required for a manager to view detailed engagement survey results?,single_hop,HybridRRFRetriever,0.2810237407684326,3,0.015873015873015872,hybrid_rrf,..\data\corpus\company\working-groups\maintainership.md,,4478,working-groups,611,"#### Conducting a survey
+
+- [ ] Establish the goal of the survey
+- [ ] Share in the most [relevant slack channel](#communication-channels) and cross-post to other relevant channels
+- [ ] Communicate the end date or due date for the survey
+- [ ] Define a minimum number of responses to make the results representative/useful
+- [ ] Add a question to distinguish between different subgroups if applicable (frontend/backend, reviewer/trainee/maintainer) for pivoting the results.
+
+#### Communication channels
+
+It is appropriate for almost any changes to be communicated in:
+
+- `#development`
+- `#eng-week-in-review`"
+Q069,What is the minimum number of direct reports required for a manager to view detailed engagement survey results?,single_hop,HybridRRFRetriever,0.2810237407684326,4,0.015625,hybrid_rrf,..\data\corpus\people-group\engagement.md,,7633,people-group,680,"Below you will find a summary of our overall results, as well as key insights and opportunities. A huge thanks to everyone who completed the survey and made their voices heard. Your feedback helps us to continually improve the experience of working at GitLab.
+
+#### Company Results (Overall)
+
+| **Favourable** | **Neutral** | **Unfavourable** |
+| ---------- | ------- | ------------ |
+| 75% | 17% | 8% |
+
+#### Detailed Results (Overall)
+
+We've documented our detailed FY24 Culture Amp Engagement survey results in a [presentation](https://docs.google.com/presentation/d/1fs5mPdQUdZXR6blK-5cFZL_N-Qr2Y8eta_EhKQAYa64/edit?usp=sharing) that is available only for GitLab team members."
+Q069,What is the minimum number of direct reports required for a manager to view detailed engagement survey results?,single_hop,HybridRRFRetriever,0.2810237407684326,5,0.015384615384615385,hybrid_rrf,..\data\corpus\people-group\people-ops-tech-analytics\people-analytics\survey-support.md,,8578,people-analytics,540,There are times when a leader moves into a new role or responsibilities may change for a People Business Partner and access to specific survey reports in Culture Amp need to be granted. For example: A new director joins and would like to review the engagement survey results for their org under the previous leader. In this example the new director (or their People Business Parter) would need to submit an [Access Request](/handbook/security/corporate/end-user-services/access-requests/access-requests/) to view the report with the results
+Q070,Which communication framework does GitLab recommend for communicating organization,,HybridRRFRetriever,0.19202852249145508,1,0.01639344262295082,hybrid_rrf,..\data\corpus\communication\_index.md,,133,communication,387,"## Communicating Potentially GitLab Sensitive Topics
+
+(This guidance supplements and overlaps with [GitLab's SAFE Framework](/handbook/legal/safe-framework/), the guidance on the use of [the internal handbook](/handbook/about/handbook-usage/#the-internal-handbook), and the additional guidance on this page. We ask our team members to consider the factors below in their communication. )"
+Q070,Which communication framework does GitLab recommend for communicating organization,,HybridRRFRetriever,0.19202852249145508,2,0.016129032258064516,hybrid_rrf,..\data\corpus\communication\_index.md,,427,communication,327,"## Effective communication competency
+
+[Competencies](/handbook/people-group/competencies/) are the Single Source of Truth (SSoT) framework for things we need team members to learn.
+
+In an all-remote organization effective communication is key to exchanging knowledge, ideas, and information. Effective communication at GitLab:"
+Q070,Which communication framework does GitLab recommend for communicating organization,,HybridRRFRetriever,0.19202852249145508,3,0.015873015873015872,hybrid_rrf,..\data\corpus\company\working-groups\ai-integration.md,,3661,working-groups,396,"- Move [SAFE](/handbook/legal/safe-framework/) content from the [internal handbook](https://internal.gitlab.com/handbook/product/ai-strategy/ai-integration-effort/) to the public handbook where appropriate and [SAFE](/handbook/legal/safe-framework/).
+- Develop an evaluation process of user experience between options to make more intelligent decisions on which engineering solution we recommend."
+Q070,Which communication framework does GitLab recommend for communicating organization,,HybridRRFRetriever,0.19202852249145508,4,0.015625,hybrid_rrf,..\data\corpus\people-group\organizational-change-management.md,,8340,people-group,557,"## BRIDGE Communication Framework
+
+The BRIDGE Framework is our structured approach to communicating change effectively. It ensures that all change communications acknowledge concerns, provide clarity, and encourage dialogue.
+
+**The Five Elements of BRIDGE:**
+
+**B - Big Picture**: Start by framing the change within the larger organizational context. Explain the ""why"" behind the decision, connecting it to company growth, market conditions, or strategic priorities. This helps people see beyond their immediate concerns to understand the broader rationale."
+Q070,Which communication framework does GitLab recommend for communicating organization,,HybridRRFRetriever,0.19202852249145508,5,0.015384615384615385,hybrid_rrf,..\data\corpus\company\culture\all-remote\asynchronous.md,,702,all-remote,464,"### How does asynchronous communication work?
+
+Fundamentally, asynchronous communication is simple. We do it all the time, when we send messages, leave voicemails, and record videos. Communicating async just means that the recipient of the message and the sender are unlikely to be in the same space at the same time.
+
+However, doing async communication well requires significant intentionality. When creating an async message, you have to consider questions like:"

@@ -1,0 +1,41 @@
+query_id,question,faithfulness,answer_relevancy
+0,"What is the purpose of an Ask Me Anything (AMA) session at GitLab, and who can initiate one?",0.625,0.9952599264100356
+1,What are the responsibilities of the host and moderator during a GitLab AMA?,0.6,0.0
+2,"How should someone schedule and prepare for a Deep Dive session, including what should be done after the session ends?",0.0,0.9459224483855344
+3,"What information should be included when requesting an AMA, and what responsibilities does the EBA team have after receiving the request?",,0.8520815635310487
+4,"Which Slack channels should team members use for payroll questions, IT support, referrals, and company-wide announcements?",0.4,0.9005262987741527
+5,What types of information are classified as Internal versus Limited Access at GitLab? Give examples of each.,0.8,0.0
+6,How do GitLab's values of transparency influence both confidentiality rules and communication practices?,0.8888888888888888,0.9954446611939097
+7,"What activities occur on a quarterly cadence at GitLab, and how are they related to GitLab Assembly, board meetings, and earnings activities?",,0.9384288156186074
+8,"How did GitLab become an all-remote company, and why does the company discourage hybrid work?",0.5,0.0
+9,"What is GitLab's current mission, and how does it differ from its previous mission of ""everyone can contribute""?",1.0,0.8434447516351958
+10,"How should a team member submit an expense report after business travel, and what happens if the report is submitted more than 90 days after the purchase?",1.0,0.8655867505984247
+11,"What should a traveler do if they feel unsafe traveling for work, and what travel restrictions exist for company-owned devices?",0.6,0.9872977752778795
+12,"What is the difference between spending company money using a personal credit card, a Navan physical card, and a purchase order?",0.5,0.0
+13,"What happens during the quarterly earnings process, and which teams are primarily responsible for preparing the earnings release?",0.8571428571428571,0.9124803546349435
+14,How do GitLab's transparency values interact with investor relations and quarterly earnings communications?,0.8,0.9598234745941872
+15,"If someone participates in the CFO Shadow Program, what confidentiality requirements and trading restrictions apply?",1.0,0.9535027388332779
+16,"How does the CFO Shadow Program prepare participants before they begin shadowing, and what responsibilities do they have during meetings?",0.75,0.8825252889640667
+17,"How are employee expenses reimbursed, and how does the reimbursement process differ for US employees versus non-US employees?",1.0,0.8798270000181466
+18,"If a team member purchases goods on behalf of GitLab, what approvals and procurement steps are required before Accounts Payable processes the invoice?",1.0,0.8954923995189529
+19,How do GitLab's expense policies encourage responsible spending while still supporting employee learning and professional development?,,0.9183088684836886
+20,"What eligibility requirements must an internal employee satisfy before applying for another role, and who verifies those requirements?",1.0,0.888385002454613
+21,How does the internal hiring process differ from the external candidate hiring process?,1.0,0.999999999999999
+22,"What responsibilities do the recruiter, People Connect team, and hiring manager each have before an internal offer is made?",,0.9840629181265728
+23,"If an internal candidate is selected for a new role, how is the transition between their current and new manager coordinated?",1.0,0.0
+24,"What happens if an internal candidate's compensation exceeds the salary range for the new role, and who is responsible for communicating this?",1.0,0.9228111630444551
+25,How should interviewers prepare their calendars and ModernLoop settings to reduce interview scheduling issues?,,0.9798120384617733
+26,What are the recommended steps if an interviewer must decline an interview at short notice?,0.5,0.9789183039505257
+27,How are panel interviews designed to improve both candidate experience and interviewer effectiveness?,1.0,0.7971563830709929
+28,"What preparation is expected from candidates before a technical interview, and how is AI permitted during the interview?",0.3333333333333333,0.8219925858720011
+29,How does GitLab ensure fairness and inclusivity throughout its interview process?,0.75,0.979043981165406
+30,"What interview stages are common across Infrastructure and Customer Support hiring, and how do the technical interview expectations differ?",0.16666666666666666,0.8400983913264493
+31,What technical knowledge should a Support Engineer candidate prepare compared with an Infrastructure Engineer candidate?,,0.8876049382582064
+32,How does GitLab protect candidate privacy during recruitment while still performing background checks and eligibility verification?,0.875,0.9617804471088204
+33,"What personal information does GitLab collect during recruitment, and under what circumstances can it be shared?",1.0,0.9574965272822001
+34,"How does the candidate handbook describe scheduling interviews across multiple time zones, and what responsibilities do candidates have?",0.25,0.0
+35,Which company currently conducts GitLab's pre-employment background screenings?,1.0,0.8890869483470171
+36,At what stage of the hiring process are candidates asked to complete their background screening?,0.0,0.8363843879287453
+37,Which platform does GitLab use to conduct its annual employee engagement surveys?,1.0,0.9626890486414007
+38,What is the minimum number of direct reports required for a manager to view detailed engagement survey results?,0.0,0.8975170433854746
+39,Which communication framework does GitLab recommend for communicating organization,1.0,0.9251362614032878
