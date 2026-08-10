@@ -11,7 +11,6 @@ from textwrap import dedent
 
 import streamlit as st
 
-
 # ---------------------------------------------------------------------------
 # Page configuration
 # ---------------------------------------------------------------------------
@@ -39,6 +38,7 @@ CONFIG = {
 # ---------------------------------------------------------------------------
 # Custom CSS
 # ---------------------------------------------------------------------------
+
 
 def inject_css() -> None:
     st.markdown(
@@ -498,8 +498,7 @@ def inject_css() -> None:
 # ---------------------------------------------------------------------------
 
 BACKEND_URL = (
-    "https://multidoc-rag-hahfdxgtbnhve9ba."
-    "centralindia-01.azurewebsites.net"
+    "https://multidoc-rag-hahfdxgtbnhve9ba." "centralindia-01.azurewebsites.net"
 )
 
 
@@ -541,15 +540,14 @@ def ask_backend(question: str):
 # Rendering helpers
 # ---------------------------------------------------------------------------
 
+
 def render_answer(answer):
     """
     Render the main AI answer in a clean card.
     """
 
-    st.markdown(
-        f"""
+    html = dedent(f"""
         <div class="answer-card">
-
             <div class="answer-header">
                 <span class="answer-icon">✦</span>
                 <span>Answer</span>
@@ -558,11 +556,10 @@ def render_answer(answer):
             <div class="answer-body">
                 {answer}
             </div>
-
         </div>
-        """,
-        unsafe_allow_html=True,
-    )
+    """).strip()
+
+    st.markdown(html, unsafe_allow_html=True)
 
 
 def display_sources(sources):
@@ -626,17 +623,11 @@ def render_chunks(results):
 
     for r in results:
         with st.expander(
-            f"Rank {r['rank']}  ·  "
-            f"{r['file_name']}  ·  "
-            f"score {r['score']}"
+            f"Rank {r['rank']}  ·  " f"{r['file_name']}  ·  " f"score {r['score']}"
         ):
-            meta = "  ·  ".join(
-                f"{k}: {v}"
-                for k, v in r["metadata"].items()
-            )
+            meta = "  ·  ".join(f"{k}: {v}" for k, v in r["metadata"].items())
 
-            st.markdown(
-                f"""
+            html = dedent(f"""
                 <div class="chunk-meta">
                     <span class="chunk-score">
                         Retrieval score: {r['score']}
@@ -651,9 +642,9 @@ def render_chunks(results):
                 <div class="chunk-meta">
                     {meta}
                 </div>
-                """,
-                unsafe_allow_html=True,
-            )
+            """).strip()
+
+            st.markdown(html, unsafe_allow_html=True)
 
 
 def render_stats(
@@ -689,25 +680,17 @@ def render_stats(
 
         for col, (label, value) in zip(
             cols,
-            stats[i:i + 3],
+            stats[i : i + 3],
         ):
             with col:
-                st.markdown(
-                    f"""
+                html = dedent(f"""
                     <div class="stat-card">
-
-                        <div class="stat-label">
-                            {label}
-                        </div>
-
-                        <div class="stat-value">
-                            {value}
-                        </div>
-
+                        <div class="stat-label">{label}</div>
+                        <div class="stat-value">{value}</div>
                     </div>
-                    """,
-                    unsafe_allow_html=True,
-                )
+                """).strip()
+
+                st.markdown(html, unsafe_allow_html=True)
 
 
 def render_ragas():
@@ -727,41 +710,23 @@ def render_ragas():
         ("Context Recall", 0.8765),
     ]
 
-    cols = st.columns(4)
+    # 2x2 layout gives each metric enough horizontal space.
+    for row in (metrics[:2], metrics[2:]):
+        cols = st.columns(2)
 
-    for col, (label, score) in zip(
-        cols,
-        metrics,
-    ):
-
-        if score >= 0.85:
-            icon = "●"
-        elif score >= 0.70:
-            icon = "●"
-        else:
-            icon = "●"
-
-        with col:
-            st.markdown(
-                f"""
+        for col, (label, score) in zip(cols, row):
+            html = dedent(f"""
                 <div class="stat-card">
-
-                    <div class="stat-label">
-                        {label}
-                    </div>
-
-                    <div class="stat-value">
-                        {icon} {score:.3f}
-                    </div>
-
+                    <div class="stat-label">{label}</div>
+                    <div class="stat-value">● {score:.3f}</div>
                 </div>
-                """,
-                unsafe_allow_html=True,
-            )
+            """).strip()
+
+            with col:
+                st.markdown(html, unsafe_allow_html=True)
 
     st.caption(
-        "Offline evaluation using RAGAS with Ollama "
-        "on the benchmark dataset."
+        "Offline evaluation using RAGAS with Ollama " "on the benchmark dataset."
     )
 
 
@@ -769,13 +734,13 @@ def render_ragas():
 # Main application
 # ---------------------------------------------------------------------------
 
+
 def main():
 
     inject_css()
 
     if "history" not in st.session_state:
         st.session_state.history = []
-
 
     # =========================================================
     # Hero
@@ -788,20 +753,19 @@ def main():
 
     st.markdown(
         '<div class="page-title">'
-        'Ask your documents<br>'
-        '<em>anything.</em>'
-        '</div>',
+        "Ask your documents<br>"
+        "<em>anything.</em>"
+        "</div>",
         unsafe_allow_html=True,
     )
 
     st.markdown(
         '<div class="page-subtitle">'
-        'Get grounded answers from your company documents, '
-        'with sources you can verify.'
-        '</div>',
+        "Get grounded answers from your company documents, "
+        "with sources you can verify."
+        "</div>",
         unsafe_allow_html=True,
     )
-
 
     # =========================================================
     # Search area
@@ -813,10 +777,7 @@ def main():
         label_visibility="collapsed",
     )
 
-    generate = st.button(
-        "Ask MultiDoc AI  →"
-    )
-
+    generate = st.button("Ask MultiDoc AI  →")
 
     # =========================================================
     # Handle generation
@@ -824,9 +785,7 @@ def main():
 
     if generate and query.strip():
 
-        with st.spinner(
-            "Retrieving context and generating answer..."
-        ):
+        with st.spinner("Retrieving context and generating answer..."):
 
             response = ask_backend(query)
 
@@ -843,17 +802,13 @@ def main():
                 0,
             )
 
-
             # -------------------------------------------------
             # Convert backend sources into UI format
             # -------------------------------------------------
 
             results = []
 
-            for source in response.get(
-                "sources",
-                []
-            ):
+            for source in response.get("sources", []):
 
                 results.append(
                     {
@@ -869,27 +824,18 @@ def main():
                     }
                 )
 
-
             sources = []
 
-            for source in response.get(
-                "sources",
-                []
-            ):
+            for source in response.get("sources", []):
 
                 sources.append(
                     {
                         "file_name": source["file_name"],
-                        "page": (
-                            source["page"]
-                            if source["page"] is not None
-                            else "-"
-                        ),
+                        "page": (source["page"] if source["page"] is not None else "-"),
                         "category": source["category"],
                         "score": source["score"],
                     }
                 )
-
 
         st.session_state.history.append(
             {
@@ -898,12 +844,9 @@ def main():
                 "results": results,
                 "sources": sources,
                 "latency": latency,
-                "timestamp": datetime.now().strftime(
-                    "%H:%M"
-                ),
+                "timestamp": datetime.now().strftime("%H:%M"),
             }
         )
-
 
     # =========================================================
     # Render latest result
@@ -918,28 +861,18 @@ def main():
             unsafe_allow_html=True,
         )
 
-
         # Main answer
-        render_answer(
-            latest["answer"]
-        )
-
+        render_answer(latest["answer"])
 
         # Source documents
-        display_sources(
-            latest["sources"]
-        )
-
+        display_sources(latest["sources"])
 
         # Technical information
         with st.expander(
             "Retrieved context",
             expanded=False,
         ):
-            render_chunks(
-                latest["results"]
-            )
-
+            render_chunks(latest["results"])
 
         with st.expander(
             "Technical details",
@@ -947,15 +880,10 @@ def main():
         ):
             render_stats(
                 latency=latest["latency"],
-                retrieved_count=len(
-                    latest["results"]
-                ),
-                embedding_model=CONFIG[
-                    "embedding_model"
-                ],
+                retrieved_count=len(latest["results"]),
+                embedding_model=CONFIG["embedding_model"],
                 method=CONFIG["method"],
             )
-
 
         with st.expander(
             "RAGAS evaluation",
@@ -963,16 +891,15 @@ def main():
         ):
             render_ragas()
 
-
     # =========================================================
     # Footer
     # =========================================================
 
     st.markdown(
         '<div class="footer">'
-        'Built with Streamlit · LangChain · ChromaDB · '
-        'HuggingFace Embeddings'
-        '</div>',
+        "Built with Streamlit · LangChain · ChromaDB · "
+        "HuggingFace Embeddings"
+        "</div>",
         unsafe_allow_html=True,
     )
 
