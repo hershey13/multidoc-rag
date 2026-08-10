@@ -542,80 +542,47 @@ def ask_backend(question: str):
 
 
 def render_answer(answer):
-    """
-    Render the main AI answer in a clean card.
-    """
-
-    html = dedent(f"""
-        <div class="answer-card">
-            <div class="answer-header">
-                <span class="answer-icon">✦</span>
-                <span>Answer</span>
-            </div>
-
-            <div class="answer-body">
-                {answer}
-            </div>
-        </div>
-    """).strip()
+    html = f'''<div class="answer-card">
+<div class="answer-header">
+<span class="answer-icon">✦</span>
+<span>Answer</span>
+</div>
+<div class="answer-body">
+{answer}
+</div>
+</div>'''
 
     st.markdown(html, unsafe_allow_html=True)
 
 
 def display_sources(sources):
-    """
-    Render source documents as clean cards.
-    """
-
-    html = """
-    <div class="card">
-
-        <div class="card-title">
-            Source Documents
-        </div>
-
-        <div class="pill-row">
-    """
+    parts = [
+        '<div class="card">',
+        '<div class="card-title">Source Documents</div>',
+        '<div class="pill-row">',
+    ]
 
     for s in sources:
         score = min(max(float(s["score"]), 0), 1)
+        parts.append(
+            f'''<div class="pill">
+<div>
+<div class="pill-file">📄 {s["file_name"]}</div>
+<div class="pill-meta">{s["category"]} • Page {s["page"]}</div>
+</div>
+<div class="pill-conf">{score * 100:.0f}% match</div>
+</div>'''
+        )
 
-        html += f"""
-        <div class="pill">
+    parts.extend([
+        '</div>',
+        '</div>',
+    ])
 
-            <div>
-                <div class="pill-file">
-                    📄 {s["file_name"]}
-                </div>
-
-                <div class="pill-meta">
-                    {s["category"]} • Page {s["page"]}
-                </div>
-            </div>
-
-            <div class="pill-conf">
-                {score * 100:.0f}% match
-            </div>
-
-        </div>
-        """
-
-    html += """
-        </div>
-    </div>
-    """
-
-    st.markdown(
-        dedent(html),
-        unsafe_allow_html=True,
-    )
+    st.markdown("\n".join(parts), unsafe_allow_html=True)
 
 
 def render_chunks(results):
-    """
-    Render retrieved chunks inside a collapsed section.
-    """
-
     st.markdown(
         '<div class="section-label">Retrieved Chunks</div>',
         unsafe_allow_html=True,
@@ -623,26 +590,22 @@ def render_chunks(results):
 
     for r in results:
         with st.expander(
-            f"Rank {r['rank']}  ·  " f"{r['file_name']}  ·  " f"score {r['score']}"
+            f"Rank {r['rank']}  ·  {r['file_name']}  ·  score {r['score']}"
         ):
-            meta = "  ·  ".join(f"{k}: {v}" for k, v in r["metadata"].items())
+            meta = "  ·  ".join(
+                f"{k}: {v}" for k, v in r["metadata"].items()
+            )
 
-            html = dedent(f"""
-                <div class="chunk-meta">
-                    <span class="chunk-score">
-                        Retrieval score: {r['score']}
-                    </span>
-                    &nbsp;·&nbsp; page {r['page']}
-                </div>
-
-                <div class="chunk-preview">
-                    {r['preview']}
-                </div>
-
-                <div class="chunk-meta">
-                    {meta}
-                </div>
-            """).strip()
+            html = f'''<div class="chunk-meta">
+<span class="chunk-score">Retrieval score: {r["score"]}</span>
+&nbsp;·&nbsp; page {r["page"]}
+</div>
+<div class="chunk-preview">
+{r["preview"]}
+</div>
+<div class="chunk-meta">
+{meta}
+</div>'''
 
             st.markdown(html, unsafe_allow_html=True)
 
@@ -653,10 +616,6 @@ def render_stats(
     embedding_model,
     method,
 ):
-    """
-    Render technical RAG statistics.
-    """
-
     st.markdown(
         '<div class="section-label">System Statistics</div>',
         unsafe_allow_html=True,
@@ -665,39 +624,26 @@ def render_stats(
     stats = [
         ("Query Latency", f"{latency:.2f}s"),
         ("Retrieved Chunks", str(retrieved_count)),
-        (
-            "Embedding Model",
-            embedding_model.split("/")[-1],
-        ),
+        ("Embedding Model", embedding_model.split("/")[-1]),
         ("Retrieval Strategy", method),
         ("Generator", "Groq Llama-3.1"),
         ("Reranker", "Cross Encoder"),
     ]
 
     for i in range(0, len(stats), 3):
-
         cols = st.columns(3)
 
-        for col, (label, value) in zip(
-            cols,
-            stats[i : i + 3],
-        ):
-            with col:
-                html = dedent(f"""
-                    <div class="stat-card">
-                        <div class="stat-label">{label}</div>
-                        <div class="stat-value">{value}</div>
-                    </div>
-                """).strip()
+        for col, (label, value) in zip(cols, stats[i:i + 3]):
+            html = f'''<div class="stat-card">
+<div class="stat-label">{label}</div>
+<div class="stat-value">{value}</div>
+</div>'''
 
+            with col:
                 st.markdown(html, unsafe_allow_html=True)
 
 
 def render_ragas():
-    """
-    Render offline RAGAS evaluation metrics.
-    """
-
     st.markdown(
         '<div class="section-label">Offline RAGAS Evaluation</div>',
         unsafe_allow_html=True,
@@ -710,23 +656,21 @@ def render_ragas():
         ("Context Recall", 0.8765),
     ]
 
-    # 2x2 layout gives each metric enough horizontal space.
     for row in (metrics[:2], metrics[2:]):
         cols = st.columns(2)
 
         for col, (label, score) in zip(cols, row):
-            html = dedent(f"""
-                <div class="stat-card">
-                    <div class="stat-label">{label}</div>
-                    <div class="stat-value">● {score:.3f}</div>
-                </div>
-            """).strip()
+            html = f'''<div class="stat-card">
+<div class="stat-label">{label}</div>
+<div class="stat-value">● {score:.3f}</div>
+</div>'''
 
             with col:
                 st.markdown(html, unsafe_allow_html=True)
 
     st.caption(
-        "Offline evaluation using RAGAS with Ollama " "on the benchmark dataset."
+        "Offline evaluation using RAGAS with Ollama "
+        "on the benchmark dataset."
     )
 
 
