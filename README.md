@@ -1,4 +1,5 @@
 # Multi-Document Question Answering with RAG
+This project presents a Multi-Document Question Answering system using Retrieval-Augmented Generation (RAG) to provide accurate and context-grounded answers from large document collections. The system combines dense retrieval, BM25 sparse retrieval, Reciprocal Rank Fusion (RRF), and Cross-Encoder reranking to improve document retrieval and response quality. Different chunking strategies, embedding models, and retrieval configurations were evaluated using Precision@K, Recall@K, MRR, nDCG, MAP, and RAGAS metrics. The system is implemented with FastAPI, Streamlit, ChromaDB, and Gemini, and is containerized and deployed using Docker and Microsoft Azure.
 
 ## Table of Contents
 
