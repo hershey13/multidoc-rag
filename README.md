@@ -93,7 +93,7 @@ The documents contain overlapping information and shared entities, allowing the 
 | Markdown Documents   |  1,027 |
 | PDF Pages            |     36 |
 | Generated Chunks     | 28,346 |
-| Maximum Chunk Length |    500 |
+| Maximum Chunk Length |    700 |
 | Average Chunk Length | 336.70 |
 | Minimum Chunk Length |     50 |
 
