@@ -562,30 +562,29 @@ def display_sources(sources):
     ]
 
     for i, s in enumerate(sources, start=1):
-        parts.append(f"""
-<div class="pill">
-    <div>
-        <div class="pill-file">
-            📄 {s["file_name"]}
-        </div>
-        <div class="pill-meta">
-            {s["category"]} • Page {s["page"]}
-        </div>
-    </div>
+        file_name = s["file_name"]
+        category = s["category"]
+        page = s["page"]
 
-    <div class="pill-conf">
-        Rank {i}
-    </div>
-</div>
-""")
+        html = (
+            '<div class="pill">'
+            '<div>'
+            f'<div class="pill-file">📄 {file_name}</div>'
+            f'<div class="pill-meta">{category} • Page {page}</div>'
+            '</div>'
+            f'<div class="pill-conf">Rank {i}</div>'
+            '</div>'
+        )
+
+        parts.append(html)
 
     parts.extend([
-        "</div>",
-        "</div>",
+        '</div>',
+        '</div>',
     ])
 
     st.markdown(
-        "\n".join(parts),
+        ''.join(parts),
         unsafe_allow_html=True
     )
 def render_chunks(results):
