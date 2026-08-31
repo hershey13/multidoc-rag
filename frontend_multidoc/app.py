@@ -561,34 +561,33 @@ def display_sources(sources):
         '<div class="pill-row">',
     ]
 
-    for s in sources:
-        rrf_score = float(s["score"])
-
+    for i, s in enumerate(sources, start=1):
         parts.append(f"""
 <div class="pill">
     <div>
-        <div class="pill-file">📄 {s["file_name"]}</div>
+        <div class="pill-file">
+            📄 {s["file_name"]}
+        </div>
         <div class="pill-meta">
             {s["category"]} • Page {s["page"]}
         </div>
     </div>
 
     <div class="pill-conf">
-        RRF {rrf_score:.4f}
+        Rank {i}
     </div>
 </div>
 """)
 
-    parts.extend(
-        [
-            "</div>",
-            "</div>",
-        ]
+    parts.extend([
+        "</div>",
+        "</div>",
+    ])
+
+    st.markdown(
+        "\n".join(parts),
+        unsafe_allow_html=True
     )
-
-    st.markdown("\n".join(parts), unsafe_allow_html=True)
-
-
 def render_chunks(results):
     st.markdown(
         '<div class="section-label">Retrieved Chunks</div>',
