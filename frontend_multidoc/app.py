@@ -541,23 +541,15 @@ def ask_backend(question: str):
 
 
 def render_answer(answer):
-    answer_html = markdown.markdown(
-        answer,
-        extensions=["extra"]
-    )
-
-    html = f"""
-<div class="answer-card">
-    <div class="answer-header">
-        <span class="answer-icon">✦</span>
-        <span>Answer</span>
-    </div>
-
-    <div class="answer-body">
-        {answer_html}
-    </div>
+    html = f"""<div class="answer-card">
+<div class="answer-header">
+<span class="answer-icon">✦</span>
+<span>Answer</span>
 </div>
-"""
+<div class="answer-body">
+{answer}
+</div>
+</div>"""
 
     st.markdown(html, unsafe_allow_html=True)
 
