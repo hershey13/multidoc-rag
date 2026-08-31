@@ -8,7 +8,6 @@ Premium Streamlit frontend for a FastAPI RAG backend.
 import requests
 from datetime import datetime
 from textwrap import dedent
-import markdown
 import streamlit as st
 
 # ---------------------------------------------------------------------------
