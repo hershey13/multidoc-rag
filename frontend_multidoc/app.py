@@ -8,7 +8,7 @@ Premium Streamlit frontend for a FastAPI RAG backend.
 import requests
 from datetime import datetime
 from textwrap import dedent
-
+import markdown
 import streamlit as st
 
 # ---------------------------------------------------------------------------
@@ -542,15 +542,23 @@ def ask_backend(question: str):
 
 
 def render_answer(answer):
-    html = f'''<div class="answer-card">
-<div class="answer-header">
-<span class="answer-icon">✦</span>
-<span>Answer</span>
+    answer_html = markdown.markdown(
+        answer,
+        extensions=["extra"]
+    )
+
+    html = f"""
+<div class="answer-card">
+    <div class="answer-header">
+        <span class="answer-icon">✦</span>
+        <span>Answer</span>
+    </div>
+
+    <div class="answer-body">
+        {answer_html}
+    </div>
 </div>
-<div class="answer-body">
-{answer}
-</div>
-</div>'''
+"""
 
     st.markdown(html, unsafe_allow_html=True)
 
@@ -563,21 +571,29 @@ def display_sources(sources):
     ]
 
     for s in sources:
-        score = min(max(float(s["score"]), 0), 1)
-        parts.append(
-            f'''<div class="pill">
-<div>
-<div class="pill-file">📄 {s["file_name"]}</div>
-<div class="pill-meta">{s["category"]} • Page {s["page"]}</div>
-</div>
-<div class="pill-conf">{score * 100:.0f}% match</div>
-</div>'''
-        )
+        rrf_score = float(s["score"])
 
-    parts.extend([
-        '</div>',
-        '</div>',
-    ])
+        parts.append(f"""
+<div class="pill">
+    <div>
+        <div class="pill-file">📄 {s["file_name"]}</div>
+        <div class="pill-meta">
+            {s["category"]} • Page {s["page"]}
+        </div>
+    </div>
+
+    <div class="pill-conf">
+        RRF {rrf_score:.4f}
+    </div>
+</div>
+""")
+
+    parts.extend(
+        [
+            "</div>",
+            "</div>",
+        ]
+    )
 
     st.markdown("\n".join(parts), unsafe_allow_html=True)
 
